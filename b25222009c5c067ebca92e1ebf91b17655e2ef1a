@@ -2,6 +2,252 @@
   "comments": [
     {
       "key": {
+        "uuid": "b3f65ff0_0c9af2fc",
+        "filename": "Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-22T14:19:26Z",
+      "side": 1,
+      "message": "a short description in this file for what this package is? Or better yet README/OWNERS file?",
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3c38eac1_db50a088",
+        "filename": "Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-22T14:19:26Z",
+      "side": 1,
+      "message": "nit: I\u0027d usually recommend to narrow visibility, but I guess this tool must be public?",
+      "range": {
+        "startLine": 2,
+        "startChar": 26,
+        "endLine": 2,
+        "endChar": 45
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ab4dfba0_2a3bfcff",
+        "filename": "Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-22T14:19:26Z",
+      "side": 1,
+      "message": "do we expect anything else in tools/platform-compat? do we want to move this specific prosessor to tools/platform-compat/annotation/processors/changeid (this was random)",
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b17d8a7e_088ecdf5",
+        "filename": "META-INF/services/javax.annotation.processing.Processor",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-22T14:19:26Z",
+      "side": 1,
+      "message": "Do you know how java services/ work? It\u0027d be interesting to see just depending on this jar is sufficient to trigger the processor? (This would solve one of the apex/ build issues)",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 45
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b0f8f167_85cbeaf1",
+        "filename": "src/java/com/android/compat/annotation/Change.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-22T14:19:26Z",
+      "side": 1,
+      "message": "nit: /**",
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ca5c1048_68689e24",
+        "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-22T14:19:26Z",
+      "side": 1,
+      "message": "nit: not needed",
+      "range": {
+        "startLine": 50,
+        "startChar": 37,
+        "endLine": 50,
+        "endChar": 41
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "24fd54b3_419cbf48",
+        "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-22T14:19:26Z",
+      "side": 1,
+      "message": "nit: full qualified name with package?",
+      "range": {
+        "startLine": 60,
+        "startChar": 49,
+        "endLine": 60,
+        "endChar": 62
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7ed4581a_ac971a83",
+        "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-22T14:19:26Z",
+      "side": 1,
+      "message": "private",
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "55818354_965b93a0",
+        "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-22T14:19:26Z",
+      "side": 1,
+      "message": "private",
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7f9caf9e_76def7ac",
+        "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-22T14:19:26Z",
+      "side": 1,
+      "message": "nit: extract this into a local variable for readability",
+      "range": {
+        "startLine": 189,
+        "startChar": 25,
+        "endLine": 189,
+        "endChar": 86
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "45944370_a93770c6",
+        "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-22T14:19:26Z",
+      "side": 1,
+      "message": "Why not make this an error? Having these two in source on the same field is confusing?",
+      "range": {
+        "startLine": 199,
+        "startChar": 20,
+        "endLine": 199,
+        "endChar": 27
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a2a316b0_b2b5d395",
+        "filename": "src/java/com/android/compat/annotation/XmlWriter.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-22T14:19:26Z",
+      "side": 1,
+      "message": "nit: not needed to be public",
+      "range": {
+        "startLine": 83,
+        "startChar": 4,
+        "endLine": 83,
+        "endChar": 10
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "cb2bcb57_574b0e69",
         "filename": "test/Android.bp",
         "patchSetId": 4
@@ -36,6 +282,46 @@
       "writtenOn": "2019-07-22T14:09:52Z",
       "side": 1,
       "message": "nit: This array could probably be static final; although you still need to concatenate one element to it, so you\u0027d still likely have to create a copy, unless there\u0027s some fancy iterator concatenation in Guava.",
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1f80fffb_2615c93c",
+        "filename": "test/src/com/android/compat/annotation/CompatProcessorTest.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-22T14:19:26Z",
+      "side": 1,
+      "message": "leave a comment here for posterity why you can\u0027t just depend on the source files directly?",
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "00a33bbd_66f7ce2f",
+        "filename": "test/src/com/android/compat/annotation/CompatProcessorTest.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-22T14:19:26Z",
+      "side": 1,
+      "message": "random though:\n\nwe\u0027ll probably want to increase the scope of this checker in the future so that these constants comply with the requirements, e.g. specific javadoc sections, which class files they can be defined in, whether they must be public or not.\n\nalso, in a similar vein, that whatever is passed to reportChange() is one of these constants.",
+      "range": {
+        "startLine": 97,
+        "startChar": 71,
+        "endLine": 97,
+        "endChar": 80
+      },
       "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
