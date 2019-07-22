@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cb2bcb57_574b0e69",
+        "filename": "test/Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1431994
+      },
+      "writtenOn": "2019-07-22T14:09:52Z",
+      "side": 1,
+      "message": "Looks like extra tab",
+      "range": {
+        "startLine": 13,
+        "startChar": 1,
+        "endLine": 13,
+        "endChar": 5
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ee3c2cc4_bf8e2202",
+        "filename": "test/src/com/android/compat/annotation/CompatProcessorTest.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1431994
+      },
+      "writtenOn": "2019-07-22T14:09:52Z",
+      "side": 1,
+      "message": "nit: This array could probably be static final; although you still need to concatenate one element to it, so you\u0027d still likely have to create a copy, unless there\u0027s some fancy iterator concatenation in Guava.",
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
