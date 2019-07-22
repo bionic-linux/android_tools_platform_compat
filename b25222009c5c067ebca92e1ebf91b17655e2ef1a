@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "f84462f1_60944c69",
+        "filename": "Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-22T17:58:22Z",
+      "side": 1,
+      "message": "Done, separate change",
+      "parentUuid": "b3f65ff0_0c9af2fc",
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3c38eac1_db50a088",
         "filename": "Android.bp",
         "patchSetId": 4
@@ -42,6 +60,30 @@
     },
     {
       "key": {
+        "uuid": "b64fb4d4_834b1ba5",
+        "filename": "Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-22T17:58:22Z",
+      "side": 1,
+      "message": "I\u0027m not sure. Moved the public to the plugin definition, we\u0027ll restrict if possible.",
+      "parentUuid": "3c38eac1_db50a088",
+      "range": {
+        "startLine": 2,
+        "startChar": 26,
+        "endLine": 2,
+        "endChar": 45
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ab4dfba0_2a3bfcff",
         "filename": "Android.bp",
         "patchSetId": 4
@@ -59,6 +101,24 @@
     },
     {
       "key": {
+        "uuid": "582f018f_36ee5165",
+        "filename": "Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-22T17:58:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ab4dfba0_2a3bfcff",
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b17d8a7e_088ecdf5",
         "filename": "META-INF/services/javax.annotation.processing.Processor",
         "patchSetId": 4
@@ -70,6 +130,30 @@
       "writtenOn": "2019-07-22T14:19:26Z",
       "side": 1,
       "message": "Do you know how java services/ work? It\u0027d be interesting to see just depending on this jar is sufficient to trigger the processor? (This would solve one of the apex/ build issues)",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 45
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6eea031c_acb9e360",
+        "filename": "META-INF/services/javax.annotation.processing.Processor",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-22T17:58:22Z",
+      "side": 1,
+      "message": "Let\u0027s discuss offline",
+      "parentUuid": "b17d8a7e_088ecdf5",
       "range": {
         "startLine": 1,
         "startChar": 0,
@@ -99,6 +183,24 @@
     },
     {
       "key": {
+        "uuid": "b300c290_fbd35a39",
+        "filename": "src/java/com/android/compat/annotation/Change.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-22T17:58:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b0f8f167_85cbeaf1",
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ca5c1048_68689e24",
         "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
         "patchSetId": 4
@@ -119,6 +221,30 @@
       "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "185c9e28_49afed94",
+        "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-22T17:58:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca5c1048_68689e24",
+      "range": {
+        "startLine": 50,
+        "startChar": 37,
+        "endLine": 50,
+        "endChar": 41
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     },
     {
       "key": {
@@ -145,6 +271,30 @@
     },
     {
       "key": {
+        "uuid": "bbc617bc_49b3c8de",
+        "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-22T17:58:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "24fd54b3_419cbf48",
+      "range": {
+        "startLine": 60,
+        "startChar": 49,
+        "endLine": 60,
+        "endChar": 62
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7ed4581a_ac971a83",
         "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
         "patchSetId": 4
@@ -162,6 +312,24 @@
     },
     {
       "key": {
+        "uuid": "8ba62077_10911464",
+        "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-22T17:58:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7ed4581a_ac971a83",
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "55818354_965b93a0",
         "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
         "patchSetId": 4
@@ -176,6 +344,24 @@
       "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f4717914_99f2f234",
+        "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-22T17:58:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "55818354_965b93a0",
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     },
     {
       "key": {
@@ -202,6 +388,30 @@
     },
     {
       "key": {
+        "uuid": "dd816759_c040ab74",
+        "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-22T17:58:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7f9caf9e_76def7ac",
+      "range": {
+        "startLine": 189,
+        "startChar": 25,
+        "endLine": 189,
+        "endChar": 86
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "45944370_a93770c6",
         "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
         "patchSetId": 4
@@ -213,6 +423,30 @@
       "writtenOn": "2019-07-22T14:19:26Z",
       "side": 1,
       "message": "Why not make this an error? Having these two in source on the same field is confusing?",
+      "range": {
+        "startLine": 199,
+        "startChar": 20,
+        "endLine": 199,
+        "endChar": 27
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b5bb2a95_0ef140ac",
+        "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-22T17:58:22Z",
+      "side": 1,
+      "message": "I do think there\u0027s a use case for that: define that the feature is disabled by default, but once enabled (via adb or something else) has a maxTargetSdk.\n+mathewi@google.com WDYT?",
+      "parentUuid": "45944370_a93770c6",
       "range": {
         "startLine": 199,
         "startChar": 20,
@@ -248,6 +482,30 @@
     },
     {
       "key": {
+        "uuid": "47cec9dd_24d197ab",
+        "filename": "src/java/com/android/compat/annotation/XmlWriter.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-22T17:58:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a2a316b0_b2b5d395",
+      "range": {
+        "startLine": 83,
+        "startChar": 4,
+        "endLine": 83,
+        "endChar": 10
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "cb2bcb57_574b0e69",
         "filename": "test/Android.bp",
         "patchSetId": 4
@@ -268,6 +526,30 @@
       "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5cf4d18b_882651c2",
+        "filename": "test/Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-22T17:58:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cb2bcb57_574b0e69",
+      "range": {
+        "startLine": 13,
+        "startChar": 1,
+        "endLine": 13,
+        "endChar": 5
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     },
     {
       "key": {
@@ -305,6 +587,42 @@
     },
     {
       "key": {
+        "uuid": "1111d548_60b2b3f4",
+        "filename": "test/src/com/android/compat/annotation/CompatProcessorTest.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-22T17:58:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ee3c2cc4_bf8e2202",
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3737c279_ce5cb25c",
+        "filename": "test/src/com/android/compat/annotation/CompatProcessorTest.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-22T17:58:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1f80fffb_2615c93c",
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "00a33bbd_66f7ce2f",
         "filename": "test/src/com/android/compat/annotation/CompatProcessorTest.java",
         "patchSetId": 4
@@ -316,6 +634,30 @@
       "writtenOn": "2019-07-22T14:19:26Z",
       "side": 1,
       "message": "random though:\n\nwe\u0027ll probably want to increase the scope of this checker in the future so that these constants comply with the requirements, e.g. specific javadoc sections, which class files they can be defined in, whether they must be public or not.\n\nalso, in a similar vein, that whatever is passed to reportChange() is one of these constants.",
+      "range": {
+        "startLine": 97,
+        "startChar": 71,
+        "endLine": 97,
+        "endChar": 80
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c1c33956_46a2e41f",
+        "filename": "test/src/com/android/compat/annotation/CompatProcessorTest.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-22T17:58:22Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "00a33bbd_66f7ce2f",
       "range": {
         "startLine": 97,
         "startChar": 71,
