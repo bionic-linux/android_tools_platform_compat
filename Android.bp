@@ -1,0 +1,31 @@
+package {
+    default_visibility: ["//visibility:public"],
+}
+
+java_library_host {
+    name: "compat-annotation-processor-lib",
+
+    srcs: [
+        "src/**/*.java",
+    ],
+
+    static_libs: [
+        "guava",
+    ],
+}
+
+java_plugin {
+    name: "compat-annotation-processor",
+    processor_class: "com.android.compat.annotation.CompatProcessor",
+
+    java_resources: [
+        "META-INF/**/*",
+    ],
+
+    static_libs: [
+        "compat-annotation-processor-lib",
+    ],
+    installable: false,
+
+    use_tools_jar: true,
+}
