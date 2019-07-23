@@ -17,8 +17,6 @@
 package com.android.compat.annotation;
 
 import static javax.tools.Diagnostic.Kind.ERROR;
-import static javax.tools.Diagnostic.Kind.WARNING;
-
 
 import com.google.common.collect.ImmutableSet;
 
@@ -196,9 +194,9 @@ public class ChangeIdProcessor extends AbstractProcessor {
 
         if (disabled && enabledAfter != null) {
             messager.printMessage(
-                    WARNING,
-                    "ChangeId is annotated with both @Disabled and @EnabledAfter. @EnabledAfter "
-                            + "will have no effect.",
+                    ERROR,
+                    "ChangeId is annotated with both @Disabled and @EnabledAfter, those two "
+                            + "annotations don't work together.",
                     e);
         }
         return new Change(id, name, disabled, enabledAfter);
