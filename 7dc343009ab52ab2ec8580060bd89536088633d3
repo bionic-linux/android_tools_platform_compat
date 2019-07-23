@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a284a0c_70b9700f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2019-07-23T08:29:29Z",
+      "side": 1,
+      "message": "Remember git commit message conventions:\nhttps://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html",
+      "range": {
+        "startLine": 7,
+        "startChar": 3,
+        "endLine": 7,
+        "endChar": 4
+      },
+      "revId": "7dc343009ab52ab2ec8580060bd89536088633d3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8c6a38c8_bbaca707",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2019-07-23T08:29:29Z",
+      "side": 1,
+      "message": "since this was abandoned I don\u0027t think there\u0027s much benefit referencing it",
+      "range": {
+        "startLine": 9,
+        "startChar": 9,
+        "endLine": 9,
+        "endChar": 21
+      },
+      "revId": "7dc343009ab52ab2ec8580060bd89536088633d3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
