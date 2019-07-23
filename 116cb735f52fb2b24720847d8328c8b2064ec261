@@ -1,0 +1,7 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Mathew Inwood <mathewi@google.com>
+Submitted-by: Anna Trostanetski <atrost@google.com>
+Submitted-at: Tue, 23 Jul 2019 09:25:57 +0000
+Reviewed-on: https://android-review.googlesource.com/c/tools/platform-compat/+/1088045
+Project: tools/platform-compat
+Branch: refs/heads/master
