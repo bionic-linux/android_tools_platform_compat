@@ -459,6 +459,30 @@
     },
     {
       "key": {
+        "uuid": "bd2f01d5_59857d05",
+        "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-23T10:28:59Z",
+      "side": 1,
+      "message": "@Disabled\n@EnabledAfter(Q)\nstatic final long foo \u003d 1234;\n\n@EnabledAfter(Q)\n@Disabled\nstatic final long bar \u003d 1234;\n\nIt may still be confusing? Is foo disabled, but enabled after q? After a second of thought, it may be not as confusing, but it\u0027s still a mental load on devs?",
+      "parentUuid": "b5bb2a95_0ef140ac",
+      "range": {
+        "startLine": 199,
+        "startChar": 20,
+        "endLine": 199,
+        "endChar": 27
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "a2a316b0_b2b5d395",
         "filename": "src/java/com/android/compat/annotation/XmlWriter.java",
         "patchSetId": 4
