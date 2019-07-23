@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "449156bc_28920fae",
+        "filename": "OWNERS",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-23T10:24:04Z",
+      "side": 1,
+      "message": "Following http://cs/android/libcore/OWNERS we should maybe add p-c-e+reviews@ as owners here as well? And some folks like bdc@ narayan@. (Anyone else not from LON timezone?)",
+      "revId": "51513085b60af6898e279de229c50ed12c316893",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d29a493c_53a82d1d",
+        "filename": "OWNERS",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-23T10:24:04Z",
+      "side": 1,
+      "message": "nit: sort",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 21
+      },
+      "revId": "51513085b60af6898e279de229c50ed12c316893",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f5be3de8_d589e932",
+        "filename": "README",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-07-23T10:24:04Z",
+      "side": 1,
+      "message": "Mention go/android-compat",
+      "revId": "51513085b60af6898e279de229c50ed12c316893",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
