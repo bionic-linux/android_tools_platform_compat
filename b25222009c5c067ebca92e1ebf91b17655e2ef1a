@@ -483,6 +483,30 @@
     },
     {
       "key": {
+        "uuid": "fe97c87d_691e487c",
+        "filename": "src/java/com/android/compat/annotation/CompatProcessor.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2019-07-23T11:07:04Z",
+      "side": 1,
+      "message": "My though here was that we may want to quick disable a given change if it\u0027s causing problems in dogfood builds (for example). We may not want to remove the targetSdk restriction when doing that.\n\nBut maybe it\u0027s just confusing. Current semantics is that @Disabled overrides @EnabledAfter(Q). The current adb overrides don\u0027t let you enable it honoring targetSdk - just plain on/off. Perhaps it would be better to make this an error on that basis.",
+      "parentUuid": "bd2f01d5_59857d05",
+      "range": {
+        "startLine": 199,
+        "startChar": 20,
+        "endLine": 199,
+        "endChar": 27
+      },
+      "revId": "b25222009c5c067ebca92e1ebf91b17655e2ef1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "a2a316b0_b2b5d395",
         "filename": "src/java/com/android/compat/annotation/XmlWriter.java",
         "patchSetId": 4
