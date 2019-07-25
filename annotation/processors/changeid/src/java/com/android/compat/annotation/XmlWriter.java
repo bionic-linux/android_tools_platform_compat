@@ -49,7 +49,7 @@ import javax.annotation.processing.Filer;
  * </pre>
  *
  */
-final class XmlWriter {
+final public class XmlWriter {
     //XML tags
     private static final String XML_ROOT = "config";
     private static final String XML_CHANGE_ELEMENT = "compat-change";
@@ -61,13 +61,13 @@ final class XmlWriter {
     private Document document;
     private Element root;
 
-    XmlWriter() {
+    public XmlWriter() {
         document = createDocument();
         root = document.createElement(XML_ROOT);
         document.appendChild(root);
     }
 
-    void addChange(Change change) {
+    public void addChange(Change change) {
         Element newElement = document.createElement(XML_CHANGE_ELEMENT);
         newElement.setAttribute(XML_NAME_ATTR, change.name);
         newElement.setAttribute(XML_ID_ATTR, change.id.toString());
@@ -80,12 +80,8 @@ final class XmlWriter {
         root.appendChild(newElement);
     }
 
-    void write(String packageName, String fileName, Filer filer) {
-        try (OutputStream output = filer.createResource(
-                CLASS_OUTPUT,
-                packageName,
-                fileName)
-                .openOutputStream()) {
+    public void write(OutputStream output) {
+        try {
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
             DOMSource domSource = new DOMSource(document);
@@ -93,7 +89,7 @@ final class XmlWriter {
             StreamResult result = new StreamResult(output);
 
             transformer.transform(domSource, result);
-        } catch (IOException | TransformerException e) {
+        } catch (TransformerException e) {
             throw new RuntimeException("Failed to write output", e);
         }
     }
@@ -102,8 +98,7 @@ final class XmlWriter {
         try {
             DocumentBuilderFactory documentFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentFactory.newDocumentBuilder();
-            Document document = documentBuilder.newDocument();
-            return document;
+            return documentBuilder.newDocument();
         } catch (ParserConfigurationException e) {
             throw new RuntimeException("Failed to create a new document", e);
         }
