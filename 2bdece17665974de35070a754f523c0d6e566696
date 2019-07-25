@@ -96,6 +96,30 @@
     },
     {
       "key": {
+        "uuid": "ad354b7d_20f49c3e",
+        "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/XmlWriter.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-25T11:55:49Z",
+      "side": 1,
+      "message": "It actually requires a dependency on frameworks, as this annotation is defined there.",
+      "parentUuid": "bf36e39f_cccf2974",
+      "range": {
+        "startLine": 64,
+        "startChar": 4,
+        "endLine": 64,
+        "endChar": 10
+      },
+      "revId": "2bdece17665974de35070a754f523c0d6e566696",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f99059db_bb813e47",
         "filename": "annotation/processors/changeid/test/src/com/android/compat/annotation/XmlWriterTest.java",
         "patchSetId": 2
