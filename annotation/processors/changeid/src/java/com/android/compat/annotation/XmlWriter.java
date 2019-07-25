@@ -80,12 +80,8 @@ final class XmlWriter {
         root.appendChild(newElement);
     }
 
-    void write(String packageName, String fileName, Filer filer) {
-        try (OutputStream output = filer.createResource(
-                CLASS_OUTPUT,
-                packageName,
-                fileName)
-                .openOutputStream()) {
+    void write(OutputStream output) {
+        try {
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
             DOMSource domSource = new DOMSource(document);
@@ -93,7 +89,7 @@ final class XmlWriter {
             StreamResult result = new StreamResult(output);
 
             transformer.transform(domSource, result);
-        } catch (IOException | TransformerException e) {
+        } catch (TransformerException e) {
             throw new RuntimeException("Failed to write output", e);
         }
     }
@@ -102,8 +98,7 @@ final class XmlWriter {
         try {
             DocumentBuilderFactory documentFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentFactory.newDocumentBuilder();
-            Document document = documentBuilder.newDocument();
-            return document;
+            return documentBuilder.newDocument();
         } catch (ParserConfigurationException e) {
             throw new RuntimeException("Failed to create a new document", e);
         }
