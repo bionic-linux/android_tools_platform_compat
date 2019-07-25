@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "95853ffe_a0fc91f3",
+        "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/XmlWriter.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-25T11:46:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7d98879a_062f633c",
+      "range": {
+        "startLine": 52,
+        "startChar": 0,
+        "endLine": 52,
+        "endChar": 12
+      },
+      "revId": "2bdece17665974de35070a754f523c0d6e566696",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e1f4d543_0c77e12a",
         "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/XmlWriter.java",
         "patchSetId": 2
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "bf36e39f_cccf2974",
+        "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/XmlWriter.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-25T11:46:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e1f4d543_0c77e12a",
+      "range": {
+        "startLine": 64,
+        "startChar": 4,
+        "endLine": 64,
+        "endChar": 10
+      },
+      "revId": "2bdece17665974de35070a754f523c0d6e566696",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f99059db_bb813e47",
         "filename": "annotation/processors/changeid/test/src/com/android/compat/annotation/XmlWriterTest.java",
         "patchSetId": 2
@@ -68,6 +116,30 @@
       "revId": "2bdece17665974de35070a754f523c0d6e566696",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8f93dbb4_5602be09",
+        "filename": "annotation/processors/changeid/test/src/com/android/compat/annotation/XmlWriterTest.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-07-25T11:46:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f99059db_bb813e47",
+      "range": {
+        "startLine": 33,
+        "startChar": 25,
+        "endLine": 33,
+        "endChar": 37
+      },
+      "revId": "2bdece17665974de35070a754f523c0d6e566696",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
