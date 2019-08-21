@@ -59,7 +59,7 @@ public class ChangeIdProcessor extends AbstractProcessor {
 
     private static final ImmutableSet<String> IGNORED_METHOD_NAMES =
             ImmutableSet.of("reportChange", "isChangeEnabled");
-    private static final String IGNORED_CLASS = "android.compat.Compatibility";
+    private static final String IGNORED_CLASS = "android.compat.inapp.Compatibility";
 
     private static final String SUPPORTED_ANNOTATION =
             "android.compat.annotation.ChangeId";
@@ -111,8 +111,8 @@ public class ChangeIdProcessor extends AbstractProcessor {
 
 
     private boolean shouldIgnoreAnnotation(Element e) {
-        // Just ignore the annotations on function known methods in package android.compat
-        // (libcore/luni/src/main/java/android/compat/Compatibility.java)
+        // Just ignore the annotations on function known methods in package android.compat.inapp
+        // (libcore/luni/src/main/java/android/compat/inapp/Compatibility.java)
         // without generating an error.
         return (e.getKind() == ElementKind.PARAMETER
                 && e.getEnclosingElement().getKind() == ElementKind.METHOD
