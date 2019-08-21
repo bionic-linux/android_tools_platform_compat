@@ -139,8 +139,8 @@ public class ChangeIdProcessorTest {
     public void testIgnoredParams() {
         JavaFileObject[] source = {
                 JavaFileObjects.forSourceLines(
-                        "android.compat.Compatibility",
-                        "package android.compat;",
+                        "android.compat.inapp.Compatibility",
+                        "package android.compat.inapp;",
                         "import android.compat.annotation.ChangeId;",
                         "public final class Compatibility {",
                         "   public static void reportChange(@ChangeId long changeId) {}",
@@ -160,8 +160,8 @@ public class ChangeIdProcessorTest {
     public void testOtherClassParams() {
         JavaFileObject[] source = {
                 JavaFileObjects.forSourceLines(
-                        "android.compat.OtherClass",
-                        "package android.compat;",
+                        "android.compat.inapp.OtherClass",
+                        "package android.compat.inapp;",
                         "import android.compat.annotation.ChangeId;",
                         "public final class OtherClass {",
                         "   public static void reportChange(@ChangeId long changeId) {}",
@@ -180,8 +180,8 @@ public class ChangeIdProcessorTest {
     public void testOtherMethodParams() {
         JavaFileObject[] source = {
                 JavaFileObjects.forSourceLines(
-                        "android.compat.Compatibility",
-                        "package android.compat;",
+                        "android.compat.inapp.Compatibility",
+                        "package android.compat.inapp;",
                         "import android.compat.annotation.ChangeId;",
                         "public final class Compatibility {",
                         "   public static void otherMethod(@ChangeId long changeId) {}",
