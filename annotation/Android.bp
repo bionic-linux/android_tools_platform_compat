@@ -1,0 +1,17 @@
+java_library {
+    name: "app-compat-annotations",
+    host_supported: true,
+    srcs: [
+        "src/java/**/*.java",
+    ],
+    // Allow core_current to use the annotations.
+    sdk_version: "28",
+}
+
+java_import {
+    name: "app-compat-annotations-prebuilt",
+    host_supported: true,
+    //libs: ["app-compat-annotations"],
+    jars: [":app-compat-annotations"],
+
+}
