@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f9122404_c40563d3",
+        "filename": "annotation/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1431994
+      },
+      "writtenOn": "2019-11-05T12:41:52Z",
+      "side": 1,
+      "message": "29 ? Or \"current\", perhaps?",
+      "range": {
+        "startLine": 8,
+        "startChar": 18,
+        "endLine": 8,
+        "endChar": 20
+      },
+      "revId": "b75180c76bab03fc335677bda220b0d3043dd494",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
