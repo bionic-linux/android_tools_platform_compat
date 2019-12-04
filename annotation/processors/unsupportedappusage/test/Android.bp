@@ -25,4 +25,11 @@ java_test_host {
         "junit-host",
         "objenesis",
     ],
+<<<<<<< HEAD
+=======
+
+    test_suites: [
+        "general-tests",
+    ],
+>>>>>>> Add tests to presubmit.
 }
