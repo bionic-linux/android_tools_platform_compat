@@ -1,0 +1,7 @@
+Code-Review+2: Anna Trostanetski <atrost@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: satayev <satayev@google.com>
+Submitted-at: Thu, 05 Dec 2019 15:22:53 +0000
+Reviewed-on: https://android-review.googlesource.com/c/tools/platform-compat/+/1181002
+Project: tools/platform-compat
+Branch: refs/heads/master
