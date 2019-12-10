@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9db1a542_c6485c12",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-10T11:48:55Z",
+      "side": 1,
+      "message": "Reworded.\n\nThe plugin uses java_library_host already, but also depends on the annotation java_library (which can\u0027t be host). I guess, we could technically just compile in the source into the plugin as well, and be smart about it in the processor (resolve duplicate types in classpath). Not sure if needed though for now, as this cl cleanly removes the dep.",
+      "parentUuid": "5e9f80a3_ff65c742",
+      "range": {
+        "startLine": 9,
+        "startChar": 207,
+        "endLine": 9,
+        "endChar": 237
+      },
+      "revId": "f1f98f4c5af05da138459f022707e8f65ed9cdad",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9d9b4519_a6f50128",
         "filename": "annotation/processors/unsupportedappusage/src/android/processor/unsupportedappusage/UnsupportedAppUsageProcessor.java",
         "patchSetId": 1
@@ -45,6 +69,30 @@
       "revId": "f1f98f4c5af05da138459f022707e8f65ed9cdad",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "98f2818d_0888f52a",
+        "filename": "annotation/processors/unsupportedappusage/src/android/processor/unsupportedappusage/UnsupportedAppUsageProcessor.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-10T11:48:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9d9b4519_a6f50128",
+      "range": {
+        "startLine": 50,
+        "startChar": 20,
+        "endLine": 50,
+        "endChar": 46
+      },
+      "revId": "f1f98f4c5af05da138459f022707e8f65ed9cdad",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
