@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5e9f80a3_ff65c742",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2019-12-10T07:56:41Z",
+      "side": 1,
+      "message": "you mean the processor compiles against libcore? I wouldn\u0027t expect so, since it\u0027s a host binary?\n\nOr I guess the annotation does - could we create a host java library variant of the processor target instead? (is that possible with soong?)",
+      "range": {
+        "startLine": 9,
+        "startChar": 207,
+        "endLine": 9,
+        "endChar": 237
+      },
+      "revId": "f1f98f4c5af05da138459f022707e8f65ed9cdad",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9d9b4519_a6f50128",
+        "filename": "annotation/processors/unsupportedappusage/src/android/processor/unsupportedappusage/UnsupportedAppUsageProcessor.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2019-12-10T07:56:41Z",
+      "side": 1,
+      "message": "not quite accurate - the position is of the annotation itself.",
+      "range": {
+        "startLine": 50,
+        "startChar": 20,
+        "endLine": 50,
+        "endChar": 46
+      },
+      "revId": "f1f98f4c5af05da138459f022707e8f65ed9cdad",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
