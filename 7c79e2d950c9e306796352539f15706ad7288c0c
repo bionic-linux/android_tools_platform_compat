@@ -94,6 +94,30 @@
       "revId": "7c79e2d950c9e306796352539f15706ad7288c0c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "285a46d8_90a29117",
+        "filename": "project.config",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-12T13:51:46Z",
+      "side": 1,
+      "message": "Not sure. Maybe required by gerrit / build team?\n\nWe do have README.md by the way.",
+      "parentUuid": "9dc6251a_2a79c625",
+      "range": {
+        "startLine": 4,
+        "startChar": 15,
+        "endLine": 4,
+        "endChar": 29
+      },
+      "revId": "7c79e2d950c9e306796352539f15706ad7288c0c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
