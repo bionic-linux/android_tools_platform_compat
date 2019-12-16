@@ -1,0 +1,6 @@
+
+python_binary_host {
+    name: "extract-compat-config",
+    main: "extract_compat_config.py",
+    srcs: ["extract_compat_config.py"],
+}

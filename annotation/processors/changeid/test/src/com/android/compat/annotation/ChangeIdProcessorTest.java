@@ -109,7 +109,7 @@ public class ChangeIdProcessorTest {
                         .withProcessors(new ChangeIdProcessor())
                         .compile(ObjectArrays.concat(mAnnotations,source, JavaFileObject.class));
         CompilationSubject.assertThat(compilation).succeeded();
-        CompilationSubject.assertThat(compilation).generatedFile(CLASS_OUTPUT, "compat",
+        CompilationSubject.assertThat(compilation).generatedFile(CLASS_OUTPUT, "libcore.util",
                 "compat_config.xml").contentsAsString(UTF_8).isEqualTo(expectedFile);
     }
 
