@@ -131,6 +131,24 @@
     },
     {
       "key": {
+        "uuid": "e390d596_bce4206a",
+        "filename": "build/Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-16T14:59:25Z",
+      "side": 1,
+      "message": "The python tool can be introduced before these changes?",
+      "parentUuid": "123d1b59_353950df",
+      "revId": "790d502d7b92e9cf343e0b2e49d1e6607d08f5e4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "125ef48c_38933df0",
         "filename": "build/extract_compat_config.py",
         "patchSetId": 2
@@ -189,6 +207,30 @@
       "side": 1,
       "message": "I would assume so - AOSP only supports *nix?\n\n(FWIW passing sys.sydout in here did not work as it seems to require a string)",
       "parentUuid": "7c006e5a_bdef35d2",
+      "range": {
+        "startLine": 45,
+        "startChar": 15,
+        "endLine": 45,
+        "endChar": 28
+      },
+      "revId": "790d502d7b92e9cf343e0b2e49d1e6607d08f5e4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7a11fd17_19dbf52b",
+        "filename": "build/extract_compat_config.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-16T14:59:25Z",
+      "side": 1,
+      "message": "Don\u0027t know enough about *nix. Maybe /dev/stdout/ is not present everywhere?\n\nPerhaps, easier to just take a output file as an argument?",
+      "parentUuid": "443622f0_7b14c3b1",
       "range": {
         "startLine": 45,
         "startChar": 15,
