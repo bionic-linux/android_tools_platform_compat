@@ -25,6 +25,7 @@ import com.google.common.collect.ImmutableSet;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.lang.annotation.Annotation;
+import java.util.HashMap;
 import java.util.Set;
 import java.util.Map;
 import java.util.regex.Pattern;
@@ -38,6 +39,7 @@ import javax.lang.model.element.AnnotationValue;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ExecutableElement;
 import javax.lang.model.element.Modifier;
+import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.element.VariableElement;
 import javax.annotation.processing.Messager;
@@ -88,7 +90,7 @@ public class ChangeIdProcessor extends AbstractProcessor {
             return true;
         }
 
-        XmlWriter writer = new XmlWriter();
+        Map<String, XmlWriter> writersByPackage = new HashMap<>();
 
         for (Element e : annotatedElements) {
             if (!isValidChangeId(e, processingEnv.getMessager())) {
@@ -96,17 +98,24 @@ public class ChangeIdProcessor extends AbstractProcessor {
             }
             Change change = createChange(e, processingEnv.getMessager(),
                     processingEnv.getElementUtils().getDocComment(e));
+            XmlWriter writer = writersByPackage.get(change.javaPackage);
+            if (writer == null) {
+                writer = new XmlWriter();
+                writersByPackage.put(change.javaPackage, writer);
+            }
             writer.addChange(change);
         }
 
-        try (OutputStream output = processingEnv.getFiler().createResource(
-                CLASS_OUTPUT,
-                PACKAGE,
-                CONFIG_XML)
-                .openOutputStream()) {
-            writer.write(output);
-        } catch (IOException e) {
-            throw new RuntimeException("Failed to write output", e);
+        for (Map.Entry<String, XmlWriter> entry : writersByPackage.entrySet()) {
+            try (OutputStream output = processingEnv.getFiler().createResource(
+                    CLASS_OUTPUT,
+                    entry.getKey(),
+                    CONFIG_XML)
+                    .openOutputStream()) {
+                entry.getValue().write(output);
+            } catch (IOException e) {
+                throw new RuntimeException("Failed to write output for " + entry.getKey(), e);
+            }
         }
 
 
@@ -188,6 +197,17 @@ public class ChangeIdProcessor extends AbstractProcessor {
         return true;
     }
 
+    private String getPackage(Element element) {
+        Element e = element;
+        while (e != null && e.getKind() != ElementKind.PACKAGE) {
+            e = e.getEnclosingElement();
+        }
+        if (e == null) {
+            throw new UnsupportedOperationException("Element " + element + " is not in a package");
+        }
+        return ((PackageElement) e).getQualifiedName().toString();
+    }
+
     private Change createChange(Element e, Messager messager, String comment) {
         Long id = (Long) ((VariableElement) e).getConstantValue();
         String name = e.getSimpleName().toString();
@@ -221,6 +241,6 @@ public class ChangeIdProcessor extends AbstractProcessor {
                     "ChangeId cannot be annotated with both @Disabled and @EnabledAfter.",
                     e);
         }
-        return new Change(id, name, disabled, enabledAfter, description);
+        return new Change(id, name, disabled, enabledAfter, description, getPackage(e));
     }
 }
