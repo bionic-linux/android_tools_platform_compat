@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2e6bb39c_3682bfa5",
+        "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/Change.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-16T14:27:02Z",
+      "side": 1,
+      "message": "is all of this information present on prod devices as well?",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 53
+      },
+      "revId": "790d502d7b92e9cf343e0b2e49d1e6607d08f5e4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e885b267_b3ecc47e",
+        "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/ChangeIdProcessor.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-16T14:27:02Z",
+      "side": 1,
+      "message": "unused? perhaps still worth keeping all of them in one top-level directory though?",
+      "range": {
+        "startLine": 60,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 51
+      },
+      "revId": "790d502d7b92e9cf343e0b2e49d1e6607d08f5e4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6b55dd46_72c43843",
+        "filename": "build/Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-16T14:27:02Z",
+      "side": 1,
+      "message": "can be a separate CL? also a minimal test here?",
+      "revId": "790d502d7b92e9cf343e0b2e49d1e6607d08f5e4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "125ef48c_38933df0",
+        "filename": "build/extract_compat_config.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-16T14:27:02Z",
+      "side": 1,
+      "message": "2019?",
+      "range": {
+        "startLine": 3,
+        "startChar": 19,
+        "endLine": 3,
+        "endChar": 20
+      },
+      "revId": "790d502d7b92e9cf343e0b2e49d1e6607d08f5e4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7c006e5a_bdef35d2",
+        "filename": "build/extract_compat_config.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-16T14:27:02Z",
+      "side": 1,
+      "message": "does this always work? across all machines that people use to build AOSP?",
+      "range": {
+        "startLine": 45,
+        "startChar": 15,
+        "endLine": 45,
+        "endChar": 28
+      },
+      "revId": "790d502d7b92e9cf343e0b2e49d1e6607d08f5e4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
