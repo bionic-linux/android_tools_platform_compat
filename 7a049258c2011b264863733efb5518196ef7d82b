@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "59fd913d_fc11c43e",
+        "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/ChangeIdProcessor.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-17T15:39:54Z",
+      "side": 1,
+      "message": "You could use (package+class) as a directory name, and then CONFIG_XML in that directory. It would just simplify tracking the package and class names separately.",
+      "parentUuid": "c6459093_824efe26",
+      "range": {
+        "startLine": 135,
+        "startChar": 0,
+        "endLine": 135,
+        "endChar": 86
+      },
+      "revId": "7a049258c2011b264863733efb5518196ef7d82b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "297ecca8_2c1729e5",
         "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/ChangeIdProcessor.java",
         "patchSetId": 6
