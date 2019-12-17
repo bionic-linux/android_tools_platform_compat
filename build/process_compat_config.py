@@ -72,6 +72,8 @@ def main(argv):
     parser.add_argument("--device-config", dest="device_config", type=argparse.FileType('wb'),
         help="Specify where to write config for embedding on the device to. "
         "Meta data not needed on the devivce is stripped form this.")
+    parser.add_argument("--merged-config", dest="merged_config", type=argparse.FileType('wb'),
+        help="Specify where to write merged config to. This will include metadata.")
 
     args = parser.parse_args()
 
@@ -86,6 +88,9 @@ def main(argv):
 
     if args.device_config:
         c.write_device_config(args.device_config)
+
+    if args.merged_config:
+        c.write(args.merged_config)
 
 
 
