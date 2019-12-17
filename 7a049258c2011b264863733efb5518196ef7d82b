@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f8aa224_8a188628",
+        "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/ChangeIdProcessor.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-17T15:26:02Z",
+      "side": 1,
+      "message": "why not just use single String key \u003d package + \".\" + class?",
+      "range": {
+        "startLine": 135,
+        "startChar": 0,
+        "endLine": 135,
+        "endChar": 86
+      },
+      "revId": "7a049258c2011b264863733efb5518196ef7d82b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "297ecca8_2c1729e5",
+        "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/ChangeIdProcessor.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-17T15:26:02Z",
+      "side": 1,
+      "message": "once you have a TypeElement for the closest class, you can just call t.getQualifiedName() which should return everything you need here.",
+      "revId": "7a049258c2011b264863733efb5518196ef7d82b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cbd52c0e_80ce58f8",
+        "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/ChangeIdProcessor.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-17T15:26:02Z",
+      "side": 1,
+      "message": "is this ever a problem as a filename?",
+      "range": {
+        "startLine": 257,
+        "startChar": 26,
+        "endLine": 257,
+        "endChar": 27
+      },
+      "revId": "7a049258c2011b264863733efb5518196ef7d82b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
