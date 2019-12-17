@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "34a8f812_0517078e",
+        "filename": "build/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2019-12-17T15:33:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "04dbea41_01f0aaf7",
+      "revId": "cb418ea67daf3899f03036854788c67c2473f486",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d4c681db_bdd08709",
         "filename": "build/process_compat_config.py",
         "patchSetId": 3
@@ -33,6 +51,24 @@
       "revId": "cb418ea67daf3899f03036854788c67c2473f486",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "65c8476a_038870e5",
+        "filename": "build/process_compat_config.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2019-12-17T15:33:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d4c681db_bdd08709",
+      "revId": "cb418ea67daf3899f03036854788c67c2473f486",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
