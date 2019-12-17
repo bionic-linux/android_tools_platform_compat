@@ -193,6 +193,30 @@
     },
     {
       "key": {
+        "uuid": "15edb676_4063af12",
+        "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/ChangeIdProcessor.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2019-12-17T16:05:24Z",
+      "side": 1,
+      "message": "More seriously, I feel this way is better as it doesn\u0027t break java package encapsulation. The way the filer.createResource() API is written makes me think it\u0027s intended such that things derived from the code should live in the same java package.",
+      "parentUuid": "ce01a5c7_c6d1ae2e",
+      "range": {
+        "startLine": 135,
+        "startChar": 0,
+        "endLine": 135,
+        "endChar": 86
+      },
+      "revId": "7a049258c2011b264863733efb5518196ef7d82b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "297ecca8_2c1729e5",
         "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/ChangeIdProcessor.java",
         "patchSetId": 6
