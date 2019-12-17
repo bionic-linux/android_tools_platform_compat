@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "04dbea41_01f0aaf7",
+        "filename": "build/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-17T15:18:20Z",
+      "side": 1,
+      "message": "redundant empty line?",
+      "revId": "cb418ea67daf3899f03036854788c67c2473f486",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d4c681db_bdd08709",
+        "filename": "build/process_compat_config.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-17T15:18:20Z",
+      "side": 1,
+      "message": "No newline at end of revision file.",
+      "revId": "cb418ea67daf3899f03036854788c67c2473f486",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
