@@ -96,6 +96,30 @@
     },
     {
       "key": {
+        "uuid": "46cedb86_2223ca5c",
+        "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/ChangeIdProcessor.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2019-12-17T11:41:48Z",
+      "side": 1,
+      "message": "Removed.",
+      "parentUuid": "62ed2a10_ab3b514a",
+      "range": {
+        "startLine": 60,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 51
+      },
+      "revId": "790d502d7b92e9cf343e0b2e49d1e6607d08f5e4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6b55dd46_72c43843",
         "filename": "build/Android.bp",
         "patchSetId": 2
