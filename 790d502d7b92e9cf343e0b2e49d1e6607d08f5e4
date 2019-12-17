@@ -149,6 +149,24 @@
     },
     {
       "key": {
+        "uuid": "30337561_1b10d880",
+        "filename": "build/Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2019-12-17T11:38:16Z",
+      "side": 1,
+      "message": "https://r.android.com/1191458",
+      "parentUuid": "e390d596_bce4206a",
+      "revId": "790d502d7b92e9cf343e0b2e49d1e6607d08f5e4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "125ef48c_38933df0",
         "filename": "build/extract_compat_config.py",
         "patchSetId": 2
@@ -169,6 +187,30 @@
       "revId": "790d502d7b92e9cf343e0b2e49d1e6607d08f5e4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9084a20b_72edc2a5",
+        "filename": "build/extract_compat_config.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2019-12-17T11:38:16Z",
+      "side": 1,
+      "message": "Done in https://r.android.com/1191458",
+      "parentUuid": "125ef48c_38933df0",
+      "range": {
+        "startLine": 3,
+        "startChar": 19,
+        "endLine": 3,
+        "endChar": 20
+      },
+      "revId": "790d502d7b92e9cf343e0b2e49d1e6607d08f5e4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     },
     {
       "key": {
@@ -240,6 +282,30 @@
       "revId": "790d502d7b92e9cf343e0b2e49d1e6607d08f5e4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2ab499fa_e0fd4d66",
+        "filename": "build/extract_compat_config.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2019-12-17T11:38:16Z",
+      "side": 1,
+      "message": "I\u0027m pretty sure it will work.\n\nBut I\u0027m reworking in a follow-up anyway and don\u0027t want to get bogged down with this.",
+      "parentUuid": "7a11fd17_19dbf52b",
+      "range": {
+        "startLine": 45,
+        "startChar": 15,
+        "endLine": 45,
+        "endChar": 28
+      },
+      "revId": "790d502d7b92e9cf343e0b2e49d1e6607d08f5e4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
