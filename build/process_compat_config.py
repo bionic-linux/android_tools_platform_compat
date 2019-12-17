@@ -19,6 +19,7 @@ Extracts compat_config.xml from built jar files and merges them into a single
 XML file.
 """
 
+import argparse
 import sys
 import xml.etree.ElementTree as ET
 from zipfile import ZipFile
@@ -35,18 +36,43 @@ def extract_compat_config(jarfile):
                 with jar.open(info.filename, 'r') as xml:
                     yield xml
 
-def merge_compat_config_xml(jarfile):
-    tree = ET.ElementTree()
-    tree._setroot(ET.Element('config'))
-    for xmlFile in extract_compat_config(jarfile):
+class ConfigMerger(object):
+
+    def __init__(self):
+        self.tree = ET.ElementTree()
+        self.tree._setroot(ET.Element("config"))
+
+    def merge(self, xmlFile):
         xml = ET.parse(xmlFile)
         for child in xml.getroot():
-            tree.getroot().append(child)
-    tree.write("/dev/stdout", encoding='utf-8', xml_declaration=True)
+            self.tree.getroot().append(child)
+
+    def write(self, filename):
+        self.tree.write(filename, encoding='utf-8', xml_declaration=True)
 
 
 def main(argv):
-    merge_compat_config_xml(argv[1])
+    parser = argparse.ArgumentParser(
+        description="Processes compat config XML files")
+    parser.add_argument("--jar", type=argparse.FileType('r'), action='append',
+        help="Specifies a jar file to extract compat_config.xml from.")
+    parser.add_argument("--xml", type=argparse.FileType('r'), action='append',
+        help="Specifies an xml file to read compat_config from.")
+
+    args = parser.parse_args()
+
+    c = ConfigMerger()
+    if args.jar:
+        for jar in args.jar:
+            for xml in extract_compat_config(jar.name):
+                c.merge(xml)
+    if args.xml:
+        for xml in args.xml:
+            c.merge(xml)
+
+    c.write("/dev/stdout")
+
+
 
 if __name__ == "__main__":
     main(sys.argv)
