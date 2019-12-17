@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "c6459093_824efe26",
+        "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/ChangeIdProcessor.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2019-12-17T15:36:05Z",
+      "side": 1,
+      "message": "because we need the class \u0026 package separately later (lines 148, 149)",
+      "parentUuid": "3f8aa224_8a188628",
+      "range": {
+        "startLine": 135,
+        "startChar": 0,
+        "endLine": 135,
+        "endChar": 86
+      },
+      "revId": "7a049258c2011b264863733efb5518196ef7d82b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "297ecca8_2c1729e5",
         "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/ChangeIdProcessor.java",
         "patchSetId": 6
@@ -39,6 +63,24 @@
       "revId": "7a049258c2011b264863733efb5518196ef7d82b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a7c79851_0ea09f36",
+        "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/ChangeIdProcessor.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2019-12-17T15:36:05Z",
+      "side": 1,
+      "message": "getQualifiedName() includes the package. We want just Class[.Inner] here to use as the filename (see lines 148,149 again above)",
+      "parentUuid": "297ecca8_2c1729e5",
+      "revId": "7a049258c2011b264863733efb5518196ef7d82b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     },
     {
       "key": {
@@ -62,6 +104,30 @@
       "revId": "7a049258c2011b264863733efb5518196ef7d82b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0b9f3a33_1b9c86ff",
+        "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/ChangeIdProcessor.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2019-12-17T15:36:05Z",
+      "side": 1,
+      "message": "It\u0027s used in .class files so I guess not :)",
+      "parentUuid": "cbd52c0e_80ce58f8",
+      "range": {
+        "startLine": 257,
+        "startChar": 26,
+        "endLine": 257,
+        "endChar": 27
+      },
+      "revId": "7a049258c2011b264863733efb5518196ef7d82b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
