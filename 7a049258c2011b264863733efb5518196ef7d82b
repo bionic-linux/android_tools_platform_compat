@@ -73,6 +73,30 @@
     },
     {
       "key": {
+        "uuid": "9a6b55b5_af54907d",
+        "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/ChangeIdProcessor.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2019-12-17T15:47:00Z",
+      "side": 1,
+      "message": "The filer.getResource() API take a package name as an argument, not a path. So doing as you suggest wouldn\u0027t really be correct.\n\nAs is it, the jar file contains:\n  package/path/MyClass.class\n  package/path/MyClass_compat_config.xml\n\nIf you put the classname in the package, you\u0027d get:\n  package/path/MyClass.class\n  package/path/MyClass/compat_config.xml\n\nor:\n  package/path/MyClass$Inner.class\n  package/path/MyClass/Inner/compat_config.xml\n\nwhich doesn\u0027t feel right, and would run the risk of clashes between package.Class$Inner and package.Class.Inner (where the package name there is package.Class)",
+      "parentUuid": "59fd913d_fc11c43e",
+      "range": {
+        "startLine": 135,
+        "startChar": 0,
+        "endLine": 135,
+        "endChar": 86
+      },
+      "revId": "7a049258c2011b264863733efb5518196ef7d82b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "297ecca8_2c1729e5",
         "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/ChangeIdProcessor.java",
         "patchSetId": 6
