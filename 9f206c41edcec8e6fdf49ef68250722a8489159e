@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c67b9be7_398e1fbe",
+        "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/ChangeIdProcessor.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-18T13:38:54Z",
+      "side": 1,
+      "message": "nit: no need to be public (and fields)",
+      "range": {
+        "startLine": 86,
+        "startChar": 4,
+        "endLine": 86,
+        "endChar": 10
+      },
+      "revId": "9f206c41edcec8e6fdf49ef68250722a8489159e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
