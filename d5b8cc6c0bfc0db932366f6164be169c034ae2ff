@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "64cf4a74_701c7380",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 8
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2019-12-18T15:50:53Z",
+      "side": 1,
+      "message": "This is confusing as the change is to write it per class but here it is talking about packages.",
+      "range": {
+        "startLine": 10,
+        "startChar": 9,
+        "endLine": 10,
+        "endChar": 16
+      },
+      "revId": "d5b8cc6c0bfc0db932366f6164be169c034ae2ff",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
