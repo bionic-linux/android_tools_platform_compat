@@ -45,7 +45,7 @@ public class XmlWriterTest {
     @Test
     public void testOneChange() {
         XmlWriter writer = new XmlWriter();
-        Change c = new Change(123456789L, "change-name", false, null, null);
+        Change c = new Change(123456789L, "change-name", false, null);
 
         writer.addChange(c);
         writer.write(mOutputStream);
@@ -60,10 +60,10 @@ public class XmlWriterTest {
     @Test
     public void testSomeChanges() {
         XmlWriter writer = new XmlWriter();
-        Change c = new Change(111L, "change-name1", false, null, "my nice change");
-        Change disabled = new Change(222L, "change-name2", true, null, null);
-        Change sdkRestricted = new Change(333L, "change-name3", false, 28, "");
-        Change both = new Change(444L, "change-name4", true, 29, null);
+        Change c = new Change(111L, "change-name1", false, null);
+        Change disabled = new Change(222L, "change-name2", true, null);
+        Change sdkRestricted = new Change(333L, "change-name3", false, 28);
+        Change both = new Change(444L, "change-name4", true, 29);
 
         writer.addChange(c);
         writer.addChange(disabled);
@@ -72,10 +72,9 @@ public class XmlWriterTest {
         writer.write(mOutputStream);
 
         String expected = HEADER + "<config>"
-                + "<compat-change description=\"my nice change\" id=\"111\" name=\"change-name1\"/>"
+                + "<compat-change id=\"111\" name=\"change-name1\"/>"
                 + "<compat-change disabled=\"true\" id=\"222\" name=\"change-name2\"/>"
-                + "<compat-change description=\"\" enableAfterTargetSdk=\"28\" id=\"333\" "
-                + "name=\"change-name3\"/>"
+                + "<compat-change enableAfterTargetSdk=\"28\" id=\"333\" name=\"change-name3\"/>"
                 + "<compat-change disabled=\"true\" enableAfterTargetSdk=\"29\" id=\"444\" "
                 + "name=\"change-name4\"/>"
                 + "</config>";

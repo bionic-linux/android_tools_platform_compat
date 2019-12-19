@@ -27,7 +27,6 @@ import java.io.OutputStream;
 import java.lang.annotation.Annotation;
 import java.util.Set;
 import java.util.Map;
-import java.util.regex.Pattern;
 
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.RoundEnvironment;
@@ -69,8 +68,6 @@ public class ChangeIdProcessor extends AbstractProcessor {
     private static final String ENABLED_AFTER_CLASS_NAME = "android.compat.annotation.EnabledAfter";
     private static final String TARGET_SDK_VERSION = "targetSdkVersion";
 
-    private static final Pattern JAVADOC_SANITIZER = Pattern.compile("^\\s", Pattern.MULTILINE);
-
     @Override
     public SourceVersion getSupportedSourceVersion() {
         return SourceVersion.latest();
@@ -94,8 +91,7 @@ public class ChangeIdProcessor extends AbstractProcessor {
             if (!isValidChangeId(e, processingEnv.getMessager())) {
                 continue;
             }
-            Change change = createChange(e, processingEnv.getMessager(),
-                    processingEnv.getElementUtils().getDocComment(e));
+            Change change = createChange(e, processingEnv.getMessager());
             writer.addChange(change);
         }
 
@@ -188,7 +184,7 @@ public class ChangeIdProcessor extends AbstractProcessor {
         return true;
     }
 
-    private Change createChange(Element e, Messager messager, String comment) {
+    private Change createChange(Element e, Messager messager) {
         Long id = (Long) ((VariableElement) e).getConstantValue();
         String name = e.getSimpleName().toString();
         boolean disabled = false;
@@ -209,18 +205,12 @@ public class ChangeIdProcessor extends AbstractProcessor {
             }
         }
 
-        String description = null;
-        if (comment != null) {
-            description = JAVADOC_SANITIZER.matcher(comment).replaceAll("").replaceAll("\\n",
-                    " ").trim();
-        }
-
         if (disabled && enabledAfter != null) {
             messager.printMessage(
                     ERROR,
                     "ChangeId cannot be annotated with both @Disabled and @EnabledAfter.",
                     e);
         }
-        return new Change(id, name, disabled, enabledAfter, description);
+        return new Change(id, name, disabled, enabledAfter);
     }
 }

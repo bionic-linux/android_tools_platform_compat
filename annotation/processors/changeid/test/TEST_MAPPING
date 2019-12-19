@@ -1,8 +1,0 @@
-{
-  "presubmit": [
-    {
-      "name": "compat-changeid-annotation-processor-test",
-      "host" : true
-    }
-  ]
-}
