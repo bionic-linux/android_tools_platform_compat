@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2a1a975d_63520fa7",
+        "filename": "build/Android.bp",
+        "patchSetId": 11
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-19T11:49:36Z",
+      "side": 1,
+      "message": "nit: usually you\u0027d want to move common source files into a python_library and use that as deps.",
+      "range": {
+        "startLine": 12,
+        "startChar": 34,
+        "endLine": 12,
+        "endChar": 35
+      },
+      "revId": "4be522e939c22cb7e67a8362e44c7b2cb789f77a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "69ab7158_26fdb385",
+        "filename": "build/process_compat_config.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-19T11:49:36Z",
+      "side": 1,
+      "message": "is it a single jar? why the for loop below then? If not, is it comma separated or multiple --jar arguments?",
+      "range": {
+        "startLine": 68,
+        "startChar": 27,
+        "endLine": 68,
+        "endChar": 30
+      },
+      "revId": "4be522e939c22cb7e67a8362e44c7b2cb789f77a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bc2ea4df_e4325ddf",
+        "filename": "build/process_compat_config.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-19T11:49:36Z",
+      "side": 1,
+      "message": "from",
+      "range": {
+        "startLine": 74,
+        "startChar": 57,
+        "endLine": 74,
+        "endChar": 61
+      },
+      "revId": "4be522e939c22cb7e67a8362e44c7b2cb789f77a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "84e626c3_4a9b0c6f",
+        "filename": "build/process_compat_config.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2019-12-19T11:49:36Z",
+      "side": 1,
+      "message": "nit: avoid single character names",
+      "range": {
+        "startLine": 80,
+        "startChar": 4,
+        "endLine": 80,
+        "endChar": 5
+      },
+      "revId": "4be522e939c22cb7e67a8362e44c7b2cb789f77a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
