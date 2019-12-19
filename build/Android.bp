@@ -21,3 +21,9 @@ python_test_host {
     ],
     test_suites: ["general-tests"],
 }
+
+merged_compat_config {
+    name: "merged-compat-config",
+    filename: "compat_config.xml",
+}
+
