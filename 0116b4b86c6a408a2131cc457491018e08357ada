@@ -22,6 +22,30 @@
       "revId": "0116b4b86c6a408a2131cc457491018e08357ada",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2cc25c02_0c3493d7",
+        "filename": "annotation/processors/changeid/src/java/com/android/compat/annotation/XmlWriter.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2020-01-08T08:02:51Z",
+      "side": 1,
+      "message": "Yep, that\u0027s already done in https://r.android.com/1191459",
+      "parentUuid": "443e2d6b_32ae73a6",
+      "range": {
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 70
+      },
+      "revId": "0116b4b86c6a408a2131cc457491018e08357ada",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
