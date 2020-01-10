@@ -1,0 +1,8 @@
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Anna Trostanetski <atrost@google.com>
+Submitted-by: Mathew Inwood <mathewi@google.com>
+Submitted-at: Fri, 10 Jan 2020 14:09:53 +0000
+Reviewed-on: https://android-review.googlesource.com/c/tools/platform-compat/+/1205023
+Project: tools/platform-compat
+Branch: refs/heads/master
