@@ -17,6 +17,7 @@
 package android.processor.unsupportedappusage;
 
 import static javax.tools.StandardLocation.CLASS_OUTPUT;
+import static javax.tools.StandardLocation.SOURCE_OUTPUT;
 
 import com.google.common.base.Joiner;
 import com.sun.tools.javac.model.JavacElements;
@@ -29,6 +30,7 @@ import java.io.PrintStream;
 import java.net.URLEncoder;
 import java.util.Map;
 import java.util.Set;
+import java.util.List;
 import java.util.TreeMap;
 import java.util.stream.Stream;
 
@@ -42,6 +44,7 @@ import javax.lang.model.element.Element;
 import javax.lang.model.element.ExecutableElement;
 import javax.lang.model.element.TypeElement;
 import javax.tools.Diagnostic;
+import java.util.stream.Collectors;
 
 /**
  * Annotation processor for {@code UnsupportedAppUsage} annotation.
@@ -75,17 +78,31 @@ public class UnsupportedAppUsageProcessor extends AbstractProcessor {
     private void writeToFile(String name,
             String headerLine,
             Stream<?> contents) throws IOException {
-        PrintStream out = new PrintStream(processingEnv.getFiler().createResource(
+        List<String> list = contents.map(c -> c.toString()).collect(Collectors.toList());
+        // TODO(satayev): stop using CLASS_OUTPUT, once fully migrated to SOURCE_OUTPUT
+        PrintStream classOutput = new PrintStream(processingEnv.getFiler().createResource(
                 CLASS_OUTPUT,
                 PACKAGE,
                 name)
                 .openOutputStream());
-        out.println(headerLine);
-        contents.forEach(o -> out.println(o));
-        if (out.checkError()) {
+        classOutput.println(headerLine);
+        list.forEach(o -> classOutput.println(o));
+        if (classOutput.checkError()) {
             throw new IOException("Error when writing to " + name);
         }
-        out.close();
+        classOutput.close();
+
+        PrintStream sourceOutput = new PrintStream(processingEnv.getFiler().createResource(
+                SOURCE_OUTPUT,
+                PACKAGE,
+                name)
+                .openOutputStream());
+        sourceOutput.println(headerLine);
+        list.forEach(o -> sourceOutput.println(o));
+        if (sourceOutput.checkError()) {
+            throw new IOException("Error when writing to " + name);
+        }
+        sourceOutput.close();
     }
 
     /**
