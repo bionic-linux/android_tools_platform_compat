@@ -16,6 +16,8 @@ java_library_host {
             "--add-exports jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED",
         ],
     },
+
+    visibility: ["//tools/platform-compat/annotation/processors/unsupportedappusage:__subpackages__"],
 }
 
 java_plugin {
@@ -30,4 +32,6 @@ java_plugin {
     ],
 
     use_tools_jar: true,
+
+    visibility: ["//tools/platform-compat/annotation"],
 }
