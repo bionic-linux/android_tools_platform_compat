@@ -14,32 +14,24 @@
  * limitations under the License.
  */
 
-java_library {
-    name: "app-compat-annotations",
-    host_supported: true,
-    srcs: [
-        "ChangeId.java",
-        "Disabled.java",
-        "EnabledAfter.java",
-    ],
-    // Allow core_current to use the annotations.
-    sdk_version: "current",
-}
+java_test_host {
+    name: "compat-changeid-annotation-processor-test",
 
-filegroup {
-    name: "app-compat-annotations-source",
     srcs: [
-        "ChangeId.java",
-        "Disabled.java",
-        "EnabledAfter.java",
-        "UnsupportedAppUsage.java",
+        "ChangeIdProcessorTest.java",
+        "XmlWriterTest.java",
     ],
-}
 
-java_library {
-    name: "unsupportedappusage",
-    srcs: [
-        "UnsupportedAppUsage.java",
+    static_libs: [
+        "compat-changeid-annotation-processor-lib",
+        "compile-testing-prebuilt",
+        "junit-host",
+        "mockito-host",
+        "objenesis-host",
+        "truth-prebuilt",
     ],
-    sdk_version: "core_current",
+
+    test_suites: [
+        "general-tests",
+    ],
 }
