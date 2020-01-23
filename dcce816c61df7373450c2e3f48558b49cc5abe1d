@@ -1,0 +1,31 @@
+{
+  "comments": [
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000001435237",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1215277?revision\u003d5",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "ea1c51fb_1e3ac7be",
+        "filename": "java/android/processor/unsupportedappusage/Android.bp",
+        "patchSetId": 5
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1550585
+      },
+      "writtenOn": "2020-01-23T14:41:11Z",
+      "side": 1,
+      "message": "This file contains a set of conflict markers.If this is a false alarm, add IGNORE_MERGE_CONFLICT_CHECK\u003d\u003d\u003creason\u003e to your commit message.",
+      "range": {
+        "startLine": 35,
+        "startChar": 1,
+        "endLine": 35,
+        "endChar": 7
+      },
+      "revId": "dcce816c61df7373450c2e3f48558b49cc5abe1d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
