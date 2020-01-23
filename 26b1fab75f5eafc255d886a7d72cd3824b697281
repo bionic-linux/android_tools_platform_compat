@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5d2b3b33_26d79d3d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2020-01-23T09:00:50Z",
+      "side": 1,
+      "message": "Could just use java/ and javatests/ as per google3?",
+      "range": {
+        "startLine": 10,
+        "startChar": 3,
+        "endLine": 10,
+        "endChar": 65
+      },
+      "revId": "26b1fab75f5eafc255d886a7d72cd3824b697281",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6acb4cd8_effc1821",
+        "filename": "src/main/java/com/android/compat/annotation/UnsupportedAppUsage.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2020-01-23T09:00:50Z",
+      "side": 1,
+      "message": "I don\u0027t think you\u0027re meant to update the year?",
+      "range": {
+        "startLine": 2,
+        "startChar": 17,
+        "endLine": 2,
+        "endChar": 21
+      },
+      "revId": "26b1fab75f5eafc255d886a7d72cd3824b697281",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "24c52fa2_a6b4b2d5",
+        "filename": "src/main/java/com/android/compat/annotation/XmlWriter.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2020-01-23T09:00:50Z",
+      "side": 1,
+      "message": "same again",
+      "range": {
+        "startLine": 2,
+        "startChar": 17,
+        "endLine": 2,
+        "endChar": 21
+      },
+      "revId": "26b1fab75f5eafc255d886a7d72cd3824b697281",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2bb0c936_db4b864b",
+        "filename": "src/test/python/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2020-01-23T09:00:50Z",
+      "side": 1,
+      "message": "inconsistent whitespace (tab/space)",
+      "range": {
+        "startLine": 21,
+        "startChar": 4,
+        "endLine": 21,
+        "endChar": 5
+      },
+      "revId": "26b1fab75f5eafc255d886a7d72cd3824b697281",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
