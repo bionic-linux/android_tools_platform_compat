@@ -1,0 +1,7 @@
+Presubmit-Ready+1: Colin Cross <ccross@android.com>
+Build-Cop-Override+1: Colin Cross <ccross@android.com>
+Submitted-by: Colin Cross <ccross@android.com>
+Submitted-at: Thu, 23 Jan 2020 22:34:03 +0000
+Reviewed-on: https://android-review.googlesource.com/c/tools/platform-compat/+/1216636
+Project: tools/platform-compat
+Branch: refs/heads/master
