@@ -22,6 +22,30 @@
       "revId": "dcce816c61df7373450c2e3f48558b49cc5abe1d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f36fcd26_6acc669a",
+        "filename": "java/android/processor/changeid/Change.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2020-01-23T17:55:53Z",
+      "side": 1,
+      "message": "Yes. Merge conflict resolved.",
+      "parentUuid": "bfa264bd_7e37e4f4",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 7
+      },
+      "revId": "dcce816c61df7373450c2e3f48558b49cc5abe1d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
