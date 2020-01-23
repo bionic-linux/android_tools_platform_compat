@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bfa264bd_7e37e4f4",
+        "filename": "java/android/processor/changeid/Change.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2020-01-23T16:12:24Z",
+      "side": 1,
+      "message": "Looks like this whole file needs to be deleted (and others)",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 7
+      },
+      "revId": "dcce816c61df7373450c2e3f48558b49cc5abe1d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
