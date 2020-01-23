@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "39c29f2c_eaa792cd",
+        "filename": "java/com/android/compat/annotation/ChangeIdProcessor.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2020-01-23T13:42:12Z",
+      "side": 1,
+      "message": "revert year change?",
+      "range": {
+        "startLine": 2,
+        "startChar": 17,
+        "endLine": 2,
+        "endChar": 21
+      },
+      "revId": "0e92f11518ab649e7e4fadceb0d283f66609356f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
