@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7241e1e1_f3141216",
+        "filename": "build/process_compat_config.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2020-01-29T16:39:29Z",
+      "side": 1,
+      "message": "just not args.allow_duplicates?",
+      "range": {
+        "startLine": 126,
+        "startChar": 45,
+        "endLine": 126,
+        "endChar": 78
+      },
+      "revId": "b1bf815980a2796e9680e79c0b0edc8c947e8c45",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3aa9995e_421a6a18",
+        "filename": "build/process_compat_config.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2020-01-29T16:39:29Z",
+      "side": 1,
+      "message": "maybe a test for this?",
+      "range": {
+        "startLine": 126,
+        "startChar": 0,
+        "endLine": 126,
+        "endChar": 79
+      },
+      "revId": "b1bf815980a2796e9680e79c0b0edc8c947e8c45",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
