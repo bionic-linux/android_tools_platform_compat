@@ -123,7 +123,7 @@ def main(argv):
 
     args = parser.parse_args()
 
-    config = ConfigMerger(detect_conflicts = args.allow_duplicates is None)
+    config = ConfigMerger(detect_conflicts = args.allow_duplicates is not None)
     if args.jar:
         for jar in args.jar:
             for xml_content in extract_compat_config(jar):
