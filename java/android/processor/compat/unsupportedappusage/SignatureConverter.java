@@ -15,7 +15,6 @@
  */
 package android.processor.compat.unsupportedappusage;
 
-import static javax.lang.model.element.ElementKind.PACKAGE;
 import static javax.tools.Diagnostic.Kind.ERROR;
 
 import com.google.common.collect.ImmutableMap;
@@ -42,7 +41,7 @@ import javax.lang.model.util.Types;
 /**
  * Builds a dex signature for a given method or field.
  */
-public class SignatureBuilder {
+final class SignatureConverter {
 
     private static final Map<TypeKind, String> TYPE_MAP = ImmutableMap.<TypeKind, String>builder()
             .put(TypeKind.BOOLEAN, "Z")
@@ -56,22 +55,48 @@ public class SignatureBuilder {
             .put(TypeKind.VOID, "V")
             .build();
 
-    private final Messager mMessager;
+    private final Messager messager;
 
-    public SignatureBuilder(Messager messager) {
-        mMessager = messager;
+    SignatureConverter(Messager messager) {
+        this.messager = messager;
+    }
+
+    /**
+     * Creates the signature for an annotated element.
+     */
+    String getSignature(Types types, TypeElement annotation, Element element) {
+        try {
+            String signature;
+            switch (element.getKind()) {
+                case METHOD:
+                    signature = buildMethodSignature((ExecutableElement) element);
+                    break;
+                case CONSTRUCTOR:
+                    signature = buildConstructorSignature((ExecutableElement) element);
+                    break;
+                case FIELD:
+                    signature = buildFieldSignature((VariableElement) element);
+                    break;
+                default:
+                    return null;
+            }
+            return verifyExpectedSignature(types, signature, element, annotation);
+        } catch (SignatureBuilderException problem) {
+            messager.printMessage(ERROR, problem.getMessage(), element);
+            throw new RuntimeException(problem);
+        }
     }
 
     /**
      * Returns a list of enclosing elements for the given element, with the package first, and
      * excluding the element itself.
      */
-    private List<Element> getEnclosingElements(Element e) {
+    private List<Element> getEnclosingElements(Element element) {
         List<Element> enclosing = new ArrayList<>();
-        e = e.getEnclosingElement(); // don't include the element itself.
-        while (e != null) {
-            enclosing.add(e);
-            e = e.getEnclosingElement();
+        element = element.getEnclosingElement(); // don't include the element itself.
+        while (element != null) {
+            enclosing.add(element);
+            element = element.getEnclosingElement();
         }
         Collections.reverse(enclosing);
         return enclosing;
@@ -81,41 +106,46 @@ public class SignatureBuilder {
      * Get the dex signature for a clazz, in format "Lpackage/name/Outer$Inner;"
      */
     private String getClassSignature(TypeElement clazz) {
-        StringBuilder sb = new StringBuilder("L");
+        StringBuilder signature = new StringBuilder("L");
         for (Element enclosing : getEnclosingElements(clazz)) {
             switch (enclosing.getKind()) {
                 case MODULE:
-                    // ignore this.
+                    // ignore
                     break;
                 case PACKAGE:
-                    sb.append(((PackageElement) enclosing)
+                    signature.append(((PackageElement) enclosing)
                             .getQualifiedName()
                             .toString()
                             .replace('.', '/'));
-                    sb.append('/');
+                    signature.append('/');
+                    break;
+                case CLASS:
+                case INTERFACE:
+                    signature.append(enclosing.getSimpleName()).append('$');
                     break;
                 default:
-                    sb.append(enclosing.getSimpleName()).append('$');
-                    break;
+                    throw new IllegalStateException(
+                            "Unexpected enclosing element " + enclosing.getKind());
             }
-
         }
-        return sb
+        return signature
                 .append(clazz.getSimpleName())
                 .append(";")
                 .toString();
     }
 
     /**
-     * Returns the type signature for a given type. For primitive types, a single character.
-     * For classes, the class signature. For arrays, a "[" preceeding the component type.
+     * Returns the type signature for a given type.
+     *
+     * <p>For primitive types, a single character. For classes, the class signature. For arrays, a
+     * "[" preceding the component type.
      */
     private String getTypeSignature(TypeMirror type) throws SignatureBuilderException {
-        String sig = TYPE_MAP.get(type.getKind());
-        if (sig != null) {
-            return sig;
+        TypeKind kind = type.getKind();
+        if (TYPE_MAP.containsKey(kind)) {
+            return TYPE_MAP.get(kind);
         }
-        switch (type.getKind()) {
+        switch (kind) {
             case ARRAY:
                 return "[" + getTypeSignature(((ArrayType) type).getComponentType());
             case DECLARED:
@@ -134,9 +164,8 @@ public class SignatureBuilder {
                 } else {
                     throw new SignatureBuilderException("Can't handle typevar with no bound");
                 }
-
             default:
-                throw new SignatureBuilderException("Can't handle type of kind " + type.getKind());
+                throw new SignatureBuilderException("Can't handle type of kind " + kind);
         }
     }
 
@@ -148,109 +177,74 @@ public class SignatureBuilder {
      */
     private String getExecutableSignature(CharSequence name, ExecutableElement method)
             throws SignatureBuilderException {
-        StringBuilder sig = new StringBuilder();
-        sig.append(getClassSignature((TypeElement) method.getEnclosingElement()))
+        StringBuilder signature = new StringBuilder();
+        signature.append(getClassSignature((TypeElement) method.getEnclosingElement()))
                 .append("->")
                 .append(name)
                 .append("(");
         for (VariableElement param : method.getParameters()) {
-            sig.append(getTypeSignature(param.asType()));
+            signature.append(getTypeSignature(param.asType()));
         }
-        sig.append(")")
+        signature
+                .append(")")
                 .append(getTypeSignature(method.getReturnType()));
-        return sig.toString();
+        return signature.toString();
     }
 
     private String buildMethodSignature(ExecutableElement method) throws SignatureBuilderException {
         return getExecutableSignature(method.getSimpleName(), method);
     }
 
-    private String buildConstructorSignature(ExecutableElement cons)
+    private String buildConstructorSignature(ExecutableElement constructor)
             throws SignatureBuilderException {
-        return getExecutableSignature("<init>", cons);
+        return getExecutableSignature("<init>", constructor);
     }
 
     private String buildFieldSignature(VariableElement field) throws SignatureBuilderException {
-        StringBuilder sig = new StringBuilder();
-        sig.append(getClassSignature((TypeElement) field.getEnclosingElement()))
+        return new StringBuilder()
+                .append(getClassSignature((TypeElement) field.getEnclosingElement()))
                 .append("->")
                 .append(field.getSimpleName())
                 .append(":")
                 .append(getTypeSignature(field.asType()))
-        ;
-        return sig.toString();
+                .toString();
     }
 
-    /**
-     * Creates the signature for an annotated element.
-     *
-     * @param annotationType type of annotation being processed.
-     * @param element        element for which we want to create a signature.
-     */
-    public String buildSignature(Types types, TypeElement annotation, Element element) {
-        try {
-            String signature;
-            switch (element.getKind()) {
-                case METHOD:
-                    signature = buildMethodSignature((ExecutableElement) element);
-                    break;
-                case CONSTRUCTOR:
-                    signature = buildConstructorSignature((ExecutableElement) element);
-                    break;
-                case FIELD:
-                    signature = buildFieldSignature((VariableElement) element);
-                    break;
-                default:
-                    return null;
+    /** If we have an expected signature on the annotation, warn if it doesn't match. */
+    private String verifyExpectedSignature(Types types, String signature, Element element,
+            TypeElement annotation) throws SignatureBuilderException {
+        AnnotationMirror annotationMirror = null;
+        for (AnnotationMirror mirror : element.getAnnotationMirrors()) {
+            if (types.isSameType(annotation.asType(), mirror.getAnnotationType())) {
+                annotationMirror = mirror;
+                break;
             }
-
-            // Obtain annotation objects
-            AnnotationMirror annotationMirror = null;
-            for (AnnotationMirror mirror : element.getAnnotationMirrors()) {
-                if (types.isSameType(annotation.asType(), mirror.getAnnotationType())) {
-                    annotationMirror = mirror;
-                    break;
-                }
-            }
-            if (annotationMirror == null) {
-                throw new IllegalStateException(
-                        "Element doesn't have any UnsupportedAppUsage annotation");
-            }
-
-            // If we have an expected signature on the annotation, warn if it doesn't match.
-            String expectedSignature = annotationMirror.getElementValues().entrySet().stream()
-                    .filter(e -> e.getKey().getSimpleName().contentEquals("expectedSignature"))
-                    .map(e -> (String) e.getValue().getValue())
-                    .findAny()
-                    .orElse(signature);
-            if (!signature.equals(expectedSignature)) {
-                mMessager.printMessage(
-                        ERROR,
-                        String.format(
-                                "Expected signature doesn't match generated signature.\n"
-                                        + " Expected:  %s\n Generated: %s",
-                                expectedSignature, signature),
-                        element);
-            }
-
-            return signature;
-        } catch (SignatureBuilderException problem) {
-            problem.report(element);
-            return null;
         }
+        if (annotationMirror == null) {
+            throw new IllegalStateException(
+                    "Element doesn't have any UnsupportedAppUsage annotation");
+        }
+        String expectedSignature = annotationMirror.getElementValues().entrySet().stream()
+                .filter(e -> e.getKey().getSimpleName().contentEquals("expectedSignature"))
+                .map(e -> (String) e.getValue().getValue())
+                .findAny()
+                .orElse(signature);
+        if (!signature.equals(expectedSignature)) {
+            throw new SignatureBuilderException(String.format(
+                    "Expected signature doesn't match generated signature.\n"
+                            + " Expected:  %s\n Generated: %s",
+                    expectedSignature,
+                    signature));
+        }
+        return signature;
     }
 
     /**
-     * Exception used internally when we can't build a signature. Whenever this is thrown, an error
-     * will also be written to the Messager.
+     * Exception used internally when we can't build a signature.
      */
-    private class SignatureBuilderException extends Exception {
-        public SignatureBuilderException(String message) {
+    private static class SignatureBuilderException extends Exception {
+        SignatureBuilderException(String message) {
             super(message);
-        }
-
-        public void report(Element offendingElement) {
-            mMessager.printMessage(ERROR, getMessage(), offendingElement);
         }
     }
 }
