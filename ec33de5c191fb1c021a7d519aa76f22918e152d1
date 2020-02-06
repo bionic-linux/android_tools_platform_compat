@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f261ce8c_394ff7cc",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1431994
+      },
+      "writtenOn": "2020-02-06T17:12:58Z",
+      "side": 1,
+      "message": "`UnsupportedAppUsageProcessor` or add the word `processor`. I don\u0027t think you\u0027re rewriting the annotation :).",
+      "range": {
+        "startLine": 7,
+        "startChar": 8,
+        "endLine": 7,
+        "endChar": 27
+      },
+      "revId": "ec33de5c191fb1c021a7d519aa76f22918e152d1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "693ecb20_299112c2",
+        "filename": "java/android/processor/compat/unsupportedappusage/SignatureConverter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1431994
+      },
+      "writtenOn": "2020-02-06T17:12:58Z",
+      "side": 1,
+      "message": "This should be renamed to SignatureConverterException",
+      "range": {
+        "startLine": 84,
+        "startChar": 17,
+        "endLine": 84,
+        "endChar": 42
+      },
+      "revId": "ec33de5c191fb1c021a7d519aa76f22918e152d1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
