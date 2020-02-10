@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "179df013_be44d6a4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2020-02-10T21:22:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f261ce8c_394ff7cc",
+      "range": {
+        "startLine": 7,
+        "startChar": 8,
+        "endLine": 7,
+        "endChar": 27
+      },
+      "revId": "ec33de5c191fb1c021a7d519aa76f22918e152d1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "693ecb20_299112c2",
         "filename": "java/android/processor/compat/unsupportedappusage/SignatureConverter.java",
         "patchSetId": 1
@@ -45,6 +69,30 @@
       "revId": "ec33de5c191fb1c021a7d519aa76f22918e152d1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cced2416_d89e759d",
+        "filename": "java/android/processor/compat/unsupportedappusage/SignatureConverter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2020-02-10T21:22:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "693ecb20_299112c2",
+      "range": {
+        "startLine": 84,
+        "startChar": 17,
+        "endLine": 84,
+        "endChar": 42
+      },
+      "revId": "ec33de5c191fb1c021a7d519aa76f22918e152d1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
