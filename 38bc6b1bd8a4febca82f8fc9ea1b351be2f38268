@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "56b2a7b8_9b8a3b55",
+        "filename": "java/android/processor/compat/unsupportedappusage/SignatureConverter.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 1431994
+      },
+      "writtenOn": "2020-02-18T13:19:40Z",
+      "side": 1,
+      "message": "nit: convert",
+      "range": {
+        "startLine": 244,
+        "startChar": 47,
+        "endLine": 244,
+        "endChar": 52
+      },
+      "revId": "38bc6b1bd8a4febca82f8fc9ea1b351be2f38268",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
