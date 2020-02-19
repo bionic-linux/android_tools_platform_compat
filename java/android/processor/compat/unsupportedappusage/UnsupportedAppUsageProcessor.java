@@ -104,9 +104,10 @@ public class UnsupportedAppUsageProcessor extends AbstractProcessor {
         for (Element annotatedElement : roundEnv.getElementsAnnotatedWith(annotation)) {
             String signature = signatureConverter.getSignature(
                     types, annotation, annotatedElement);
-            if (signature != null) {
-                signatureMap.put(signature, annotatedElement);
+            if (signature == null) {
+                return false; // could not generate a signature, fail the process
             }
+            signatureMap.put(signature, annotatedElement);
         }
 
         if (!signatureMap.isEmpty()) {
