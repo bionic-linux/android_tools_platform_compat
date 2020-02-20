@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b58d1813_33977de7",
+        "filename": "java/android/processor/compat/unsupportedappusage/UnsupportedAppUsageProcessor.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1431994
+      },
+      "writtenOn": "2020-02-20T13:54:31Z",
+      "side": 1,
+      "message": "Preconditions.checkNotNull here and on the line below.",
+      "range": {
+        "startLine": 137,
+        "startChar": 26,
+        "endLine": 137,
+        "endChar": 60
+      },
+      "revId": "0135124afcd38adbdc7c636dbff625f923d78def",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2ff61d70_72eab147",
+        "filename": "java/android/processor/compat/unsupportedappusage/UnsupportedAppUsageProcessor.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1431994
+      },
+      "writtenOn": "2020-02-20T13:54:31Z",
+      "side": 1,
+      "message": "Is this intentional?",
+      "range": {
+        "startLine": 163,
+        "startChar": 57,
+        "endLine": 163,
+        "endChar": 65
+      },
+      "revId": "0135124afcd38adbdc7c636dbff625f923d78def",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "344ca95e_6553db5e",
+        "filename": "java/android/processor/compat/unsupportedappusage/UnsupportedAppUsageProcessor.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1431994
+      },
+      "writtenOn": "2020-02-20T13:54:31Z",
+      "side": 1,
+      "message": "nice!",
+      "range": {
+        "startLine": 166,
+        "startChar": 20,
+        "endLine": 166,
+        "endChar": 58
+      },
+      "revId": "0135124afcd38adbdc7c636dbff625f923d78def",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dd79525b_3f4a5e91",
+        "filename": "java/android/processor/compat/unsupportedappusage/UnsupportedAppUsageProcessor.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1431994
+      },
+      "writtenOn": "2020-02-20T13:54:31Z",
+      "side": 1,
+      "message": "Could this be a try-with-resources block instead?",
+      "range": {
+        "startLine": 167,
+        "startChar": 20,
+        "endLine": 168,
+        "endChar": 40
+      },
+      "revId": "0135124afcd38adbdc7c636dbff625f923d78def",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b91189b4_2fac50e2",
+        "filename": "java/android/processor/compat/unsupportedappusage/UnsupportedAppUsageProcessor.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 1431994
+      },
+      "writtenOn": "2020-02-20T13:54:31Z",
+      "side": 1,
+      "message": "If this is not accidental test code, could you please add a comment about magic number 5? Also, perhaps you should throw instead?",
+      "range": {
+        "startLine": 214,
+        "startChar": 8,
+        "endLine": 216,
+        "endChar": 9
+      },
+      "revId": "0135124afcd38adbdc7c636dbff625f923d78def",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
