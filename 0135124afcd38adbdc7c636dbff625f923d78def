@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5b5f6ff3_a5695e12",
+        "filename": "java/android/processor/compat/unsupportedappusage/UnsupportedAppUsageProcessor.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2020-02-20T15:27:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b58d1813_33977de7",
+      "range": {
+        "startLine": 137,
+        "startChar": 26,
+        "endLine": 137,
+        "endChar": 60
+      },
+      "revId": "0135124afcd38adbdc7c636dbff625f923d78def",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2ff61d70_72eab147",
         "filename": "java/android/processor/compat/unsupportedappusage/UnsupportedAppUsageProcessor.java",
         "patchSetId": 1
@@ -45,6 +69,30 @@
       "revId": "0135124afcd38adbdc7c636dbff625f923d78def",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1b847c37_eace9023",
+        "filename": "java/android/processor/compat/unsupportedappusage/UnsupportedAppUsageProcessor.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2020-02-20T15:27:53Z",
+      "side": 1,
+      "message": "Kinda, I am filtering out all these files from the .jar file in soong. Didn\u0027t want to delete other unrelated .csv files if any.",
+      "parentUuid": "2ff61d70_72eab147",
+      "range": {
+        "startLine": 163,
+        "startChar": 57,
+        "endLine": 163,
+        "endChar": 65
+      },
+      "revId": "0135124afcd38adbdc7c636dbff625f923d78def",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     },
     {
       "key": {
@@ -94,6 +142,30 @@
     },
     {
       "key": {
+        "uuid": "04c6f82f_52d898e9",
+        "filename": "java/android/processor/compat/unsupportedappusage/UnsupportedAppUsageProcessor.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2020-02-20T15:27:53Z",
+      "side": 1,
+      "message": "Thanks! Totally not used to them... let me know if this is not readable.",
+      "parentUuid": "dd79525b_3f4a5e91",
+      "range": {
+        "startLine": 167,
+        "startChar": 20,
+        "endLine": 168,
+        "endChar": 40
+      },
+      "revId": "0135124afcd38adbdc7c636dbff625f923d78def",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b91189b4_2fac50e2",
         "filename": "java/android/processor/compat/unsupportedappusage/UnsupportedAppUsageProcessor.java",
         "patchSetId": 1
@@ -114,6 +186,30 @@
       "revId": "0135124afcd38adbdc7c636dbff625f923d78def",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "422e19e2_30d25540",
+        "filename": "java/android/processor/compat/unsupportedappusage/UnsupportedAppUsageProcessor.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2020-02-20T15:27:53Z",
+      "side": 1,
+      "message": "totally test code... 😄",
+      "parentUuid": "b91189b4_2fac50e2",
+      "range": {
+        "startLine": 214,
+        "startChar": 8,
+        "endLine": 216,
+        "endChar": 9
+      },
+      "revId": "0135124afcd38adbdc7c636dbff625f923d78def",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
