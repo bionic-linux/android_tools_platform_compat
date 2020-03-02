@@ -1,0 +1,10 @@
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Autosubmit+1: satayev <satayev@google.com>
+Code-Review+2: Andrei-Valentin Onea <andreionea@google.com>
+Presubmit-Verified-1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: satayev <satayev@google.com>
+Submitted-at: Mon, 02 Mar 2020 14:22:40 +0000
+Reviewed-on: https://android-review.googlesource.com/c/tools/platform-compat/+/1246053
+Project: tools/platform-compat
+Branch: refs/heads/master
