@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "849f643c_b8cba876",
+        "filename": "java/android/processor/compat/unsupportedappusage/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1103203
+      },
+      "writtenOn": "2020-03-04T18:32:53Z",
+      "side": 1,
+      "message": "nit: why not __subpackages__? I see no reason to restrict build rules moving to subpackages who want to continue seeing this.",
+      "range": {
+        "startLine": 53,
+        "startChar": 19,
+        "endLine": 53,
+        "endChar": 27
+      },
+      "revId": "aac2a20f708d5d4d080f53c98145a53beef4e8b9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
