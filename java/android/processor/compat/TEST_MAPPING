@@ -3,6 +3,10 @@
     {
       "name": "unsupportedappusage-processor-test",
       "host" : true
+    },
+    {
+      "name": "compat-changeid-annotation-processor-test",
+      "host" : true
     }
   ]
 }
