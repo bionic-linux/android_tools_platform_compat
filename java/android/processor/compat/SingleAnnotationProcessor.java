@@ -20,18 +20,24 @@ import com.google.common.base.Preconditions;
 import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Table;
+import com.sun.source.tree.CompilationUnitTree;
+import com.sun.source.tree.LineMap;
+import com.sun.source.tree.Tree;
 import com.sun.source.util.SourcePositions;
+import com.sun.source.util.TreePath;
 import com.sun.source.util.Trees;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import javax.annotation.Nullable;
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.Messager;
 import javax.annotation.processing.ProcessingEnvironment;
 import javax.annotation.processing.RoundEnvironment;
 import javax.lang.model.element.AnnotationMirror;
+import javax.lang.model.element.AnnotationValue;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.QualifiedNameable;
@@ -45,7 +51,8 @@ import javax.lang.model.util.Types;
  * <p>It expects only one supported annotation, i.e. {@link #getSupportedAnnotationTypes()} must
  * return one annotation type only.
  *
- * <p>Annotated elements are pre-filtered by {@link #ignoreAnnotatedElement(Element, AnnotationMirror)}.
+ * <p>Annotated elements are pre-filtered by {@link #ignoreAnnotatedElement(Element,
+ * AnnotationMirror)}.
  * Afterwards, the table with package and enclosing element name into list of elements is generated
  * and passed to {@link #process(TypeElement, Table)}.
  */
@@ -70,10 +77,11 @@ public abstract class SingleAnnotationProcessor extends AbstractProcessor {
     }
 
     @Override
-    public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnvironment) {
+    public boolean process(Set<? extends TypeElement> annotations,
+            RoundEnvironment roundEnvironment) {
         if (annotations.size() == 0) {
             // no annotations to process, doesn't really matter what we return here.
-            return true;            
+            return true;
         }
 
         TypeElement annotation = Iterables.getOnlyElement(annotations);
@@ -83,7 +91,8 @@ public abstract class SingleAnnotationProcessor extends AbstractProcessor {
 
         Table<PackageElement, String, List<Element>> annotatedElements = HashBasedTable.create();
         for (Element annotatedElement : roundEnvironment.getElementsAnnotatedWith(annotation)) {
-            AnnotationMirror annotationMirror = getSupportedAnnotationMirror(annotation, annotatedElement);
+            AnnotationMirror annotationMirror = getSupportedAnnotationMirror(annotation,
+                    annotatedElement);
             if (ignoreAnnotatedElement(annotatedElement, annotationMirror)) {
                 continue;
             }
@@ -102,10 +111,12 @@ public abstract class SingleAnnotationProcessor extends AbstractProcessor {
     }
 
     /**
-     * Processes a set of elements annotated with supported annotation and not ignored via {@link #ignoreAnnotatedElement(Element, AnnotationMirror)}.
+     * Processes a set of elements annotated with supported annotation and not ignored via {@link
+     * #ignoreAnnotatedElement(Element, AnnotationMirror)}.
      *
-     * @param annotation {@link TypeElement} of the supported annotation
-     * @param annotatedElements table with {@code package}, {@code enclosing elements name}, and the list of elements
+     * @param annotation        {@link TypeElement} of the supported annotation
+     * @param annotatedElements table with {@code package}, {@code enclosing elements name}, and the
+     *                          list of elements
      */
     protected abstract void process(TypeElement annotation,
             Table<PackageElement, String, List<Element>> annotatedElements);
@@ -121,13 +132,53 @@ public abstract class SingleAnnotationProcessor extends AbstractProcessor {
      * <p>We are not using a class to avoid choosing which Java 9 Module to select from, in case
      * the annotation is present in base module and unnamed module.
      */
-    public AnnotationMirror getSupportedAnnotationMirror(TypeElement annotation, Element element) {
+    protected final AnnotationMirror getSupportedAnnotationMirror(TypeElement annotation,
+            Element element) {
         for (AnnotationMirror mirror : element.getAnnotationMirrors()) {
             if (types.isSameType(annotation.asType(), mirror.getAnnotationType())) {
                 return mirror;
             }
         }
         return null;
+    }
+
+    /**
+     * Returns {@link SourcePosition} of an annotation on the given element or null if position is
+     * not found.
+     */
+    @Nullable
+    protected final SourcePosition getSourcePosition(Element element,
+            AnnotationMirror annotationMirror) {
+        TreePath path = trees.getPath(element, annotationMirror);
+        if (path == null) {
+            return null;
+        }
+        CompilationUnitTree compilationUnit = path.getCompilationUnit();
+        Tree tree = path.getLeaf();
+        long startPosition = sourcePositions.getStartPosition(compilationUnit, tree);
+        long endPosition = sourcePositions.getEndPosition(compilationUnit, tree);
+
+        LineMap lineMap = path.getCompilationUnit().getLineMap();
+        return new SourcePosition(
+                compilationUnit.getSourceFile().getName(),
+                lineMap.getLineNumber(startPosition),
+                lineMap.getColumnNumber(startPosition),
+                lineMap.getLineNumber(endPosition),
+                lineMap.getColumnNumber(endPosition));
+    }
+
+    @Nullable
+    protected final AnnotationValue getAnnotationValue(
+            Element element, AnnotationMirror annotation, String propertyName) {
+        return annotation.getElementValues().keySet().stream()
+                .filter(key -> propertyName.equals(key.getSimpleName().toString()))
+                .map(key -> annotation.getElementValues().get(key))
+                .reduce((a, b) -> {
+                    throw new IllegalStateException(
+                            String.format("Only one %s expected, found %s in %s",
+                                    propertyName, annotation, element));
+                })
+                .orElse(null);
     }
 
     /**
