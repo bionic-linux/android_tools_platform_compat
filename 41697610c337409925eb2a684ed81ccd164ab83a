@@ -1,0 +1,9 @@
+Code-Review+2: satayev <satayev@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Presubmit-Ready+1: Anton Hansson <hansson@google.com>
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Submitted-by: Anton Hansson <hansson@google.com>
+Submitted-at: Mon, 23 Mar 2020 13:27:11 +0000
+Reviewed-on: https://android-review.googlesource.com/c/tools/platform-compat/+/1264379
+Project: tools/platform-compat
+Branch: refs/heads/master
