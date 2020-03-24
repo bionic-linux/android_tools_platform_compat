@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "4ab3067b_63bc820d",
+        "filename": "java/android/processor/compat/SingleAnnotationProcessor.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2020-03-24T13:19:56Z",
+      "side": 1,
+      "message": "It should be. But there is one protected field in AbstractProcessor already, and I thought I\u0027d keep access to these singletons consistent. WDYT?",
+      "parentUuid": "19ed7763_205c7316",
+      "range": {
+        "startLine": 60,
+        "startChar": 3,
+        "endLine": 64,
+        "endChar": 15
+      },
+      "revId": "5403bf16294320c4f8721d5392fcf17fab99fd27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "70b57cca_bcf2e3ad",
         "filename": "java/android/processor/compat/SingleAnnotationProcessor.java",
         "patchSetId": 1
@@ -45,6 +69,30 @@
       "revId": "5403bf16294320c4f8721d5392fcf17fab99fd27",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a35a205a_641e3a23",
+        "filename": "java/android/processor/compat/SingleAnnotationProcessor.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2020-03-24T13:19:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "70b57cca_bcf2e3ad",
+      "range": {
+        "startLine": 102,
+        "startChar": 0,
+        "endLine": 102,
+        "endChar": 12
+      },
+      "revId": "5403bf16294320c4f8721d5392fcf17fab99fd27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     },
     {
       "key": {
