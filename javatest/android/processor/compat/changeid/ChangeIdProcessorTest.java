@@ -76,6 +76,17 @@ public class ChangeIdProcessorTest {
                     "@Target({FIELD})",
                     "public @interface EnabledAfter {",
                     "int targetSdkVersion();",
+                    "}"),
+           JavaFileObjects.forSourceLines("android.compat.annotation.EnabledSince",
+                    "package android.compat.annotation;",
+                    "import static java.lang.annotation.ElementType.FIELD;",
+                    "import static java.lang.annotation.RetentionPolicy.SOURCE;",
+                    "import java.lang.annotation.Retention;",
+                    "import java.lang.annotation.Target;",
+                    "@Retention(SOURCE)",
+                    "@Target({FIELD})",
+                    "public @interface EnabledSince {",
+                    "int targetSdkVersion();",
                     "}")
 
     };
@@ -91,6 +102,7 @@ public class ChangeIdProcessorTest {
                         "package libcore.util;",
                         "import android.compat.annotation.ChangeId;",
                         "import android.compat.annotation.EnabledAfter;",
+                        "import android.compat.annotation.EnabledSince;",
                         "import android.compat.annotation.Disabled;",
                         "public class Compat {",
                         "    /**",
@@ -110,10 +122,10 @@ public class ChangeIdProcessorTest {
                 "<compat-change description=\"description of MY_CHANGE_ID\" "
                 + "enableAfterTargetSdk=\"29\" id=\"123456789\" name=\"MY_CHANGE_ID\">"
                 + "<meta-data definedIn=\"libcore.util.Compat\" "
-                + "sourcePosition=\"libcore/util/Compat.java:11\"/></compat-change>"
+                + "sourcePosition=\"libcore/util/Compat.java:12\"/></compat-change>"
                 + "<compat-change description=\"description of ANOTHER_CHANGE\" disabled=\"true\" "
                 + "id=\"23456700\" name=\"ANOTHER_CHANGE\"><meta-data definedIn=\"libcore.util"
-                + ".Compat\" sourcePosition=\"libcore/util/Compat.java:14\"/></compat-change>"
+                + ".Compat\" sourcePosition=\"libcore/util/Compat.java:15\"/></compat-change>"
                 + "</config>";
         Compilation compilation =
                 Compiler.javac()
