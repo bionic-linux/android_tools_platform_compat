@@ -69,6 +69,7 @@ public class ChangeIdProcessor extends SingleAnnotationProcessor {
 
     private static final String DISABLED_CLASS_NAME = "android.compat.annotation.Disabled";
     private static final String ENABLED_AFTER_CLASS_NAME = "android.compat.annotation.EnabledAfter";
+    private static final String ENABLED_SINCE_CLASS_NAME = "android.compat.annotation.EnabledSince";
     private static final String LOGGING_CLASS_NAME = "android.compat.annotation.LoggingOnly";
     private static final String TARGET_SDK_VERSION = "targetSdkVersion";
 
@@ -187,6 +188,10 @@ public class ChangeIdProcessor extends SingleAnnotationProcessor {
                 case ENABLED_AFTER_CLASS_NAME:
                     AnnotationValue value = getAnnotationValue(element, mirror, TARGET_SDK_VERSION);
                     builder.enabledAfter((Integer)(Objects.requireNonNull(value).getValue()));
+                    break;
+                case ENABLED_SINCE_CLASS_NAME:
+                    AnnotationValue value2 = getAnnotationValue(element, mirror, TARGET_SDK_VERSION);
+                    builder.enabledAfter((Integer)(Objects.requireNonNull(value2).getValue()) - 1);
                     break;
                 case CHANGE_ID_QUALIFIED_CLASS_NAME:
                     changeId = mirror;
