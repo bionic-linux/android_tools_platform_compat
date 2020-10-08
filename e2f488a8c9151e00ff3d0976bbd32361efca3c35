@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "14c62823_c076f2fb",
+        "filename": "java/android/processor/compat/changeid/ChangeIdProcessor.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2020-10-08T12:16:12Z",
+      "side": 1,
+      "message": "could declare this outside of the switch statement so toy don\u0027t need \"value2\" below.\n\nAlternatively, rename this enabledAfterValue and then enabledSinceValue below",
+      "range": {
+        "startLine": 189,
+        "startChar": 20,
+        "endLine": 189,
+        "endChar": 41
+      },
+      "revId": "e2f488a8c9151e00ff3d0976bbd32361efca3c35",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "71465113_7d1dfb8c",
+        "filename": "java/android/processor/compat/changeid/ChangeIdProcessor.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2020-10-08T12:16:12Z",
+      "side": 1,
+      "message": "we should report an error if both are defined",
+      "range": {
+        "startLine": 192,
+        "startChar": 21,
+        "endLine": 192,
+        "endChar": 45
+      },
+      "revId": "e2f488a8c9151e00ff3d0976bbd32361efca3c35",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4a7250e7_ac87e8ed",
+        "filename": "java/android/processor/compat/changeid/ChangeIdProcessor.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2020-10-08T12:16:12Z",
+      "side": 1,
+      "message": "is the intent that we will change enabledAfter -\u003e enabledSince in the builder and further downstream later? Add a TODO for that.",
+      "range": {
+        "startLine": 194,
+        "startChar": 40,
+        "endLine": 194,
+        "endChar": 98
+      },
+      "revId": "e2f488a8c9151e00ff3d0976bbd32361efca3c35",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a0993105_3ca31303",
+        "filename": "javatest/android/processor/compat/changeid/ChangeIdProcessorTest.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2020-10-08T12:16:12Z",
+      "side": 1,
+      "message": "add test cases below for this too?",
+      "range": {
+        "startLine": 88,
+        "startChar": 39,
+        "endLine": 88,
+        "endChar": 51
+      },
+      "revId": "e2f488a8c9151e00ff3d0976bbd32361efca3c35",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
