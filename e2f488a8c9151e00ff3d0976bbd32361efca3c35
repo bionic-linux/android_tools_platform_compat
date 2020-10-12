@@ -24,6 +24,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c763d849_2391b850",
+        "filename": "java/android/processor/compat/changeid/ChangeIdProcessor.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 1431994
+      },
+      "writtenOn": "2020-10-12T15:39:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "14c62823_c076f2fb",
+      "range": {
+        "startLine": 189,
+        "startChar": 20,
+        "endLine": 189,
+        "endChar": 41
+      },
+      "revId": "e2f488a8c9151e00ff3d0976bbd32361efca3c35",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "71465113_7d1dfb8c",
@@ -47,6 +71,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a7f679a_8f492035",
+        "filename": "java/android/processor/compat/changeid/ChangeIdProcessor.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 1431994
+      },
+      "writtenOn": "2020-10-12T15:39:07Z",
+      "side": 1,
+      "message": "I have no idea why I forgot to add that before uploading.",
+      "parentUuid": "71465113_7d1dfb8c",
+      "range": {
+        "startLine": 192,
+        "startChar": 21,
+        "endLine": 192,
+        "endChar": 45
+      },
+      "revId": "e2f488a8c9151e00ff3d0976bbd32361efca3c35",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4a7250e7_ac87e8ed",
@@ -60,6 +108,30 @@
       "writtenOn": "2020-10-08T12:16:12Z",
       "side": 1,
       "message": "is the intent that we will change enabledAfter -\u003e enabledSince in the builder and further downstream later? Add a TODO for that.",
+      "range": {
+        "startLine": 194,
+        "startChar": 40,
+        "endLine": 194,
+        "endChar": 98
+      },
+      "revId": "e2f488a8c9151e00ff3d0976bbd32361efca3c35",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b114da66_ce073b1c",
+        "filename": "java/android/processor/compat/changeid/ChangeIdProcessor.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 1431994
+      },
+      "writtenOn": "2020-10-12T15:39:07Z",
+      "side": 1,
+      "message": "This was a mistake; we need separate xml attributes.",
+      "parentUuid": "4a7250e7_ac87e8ed",
       "range": {
         "startLine": 194,
         "startChar": 40,
