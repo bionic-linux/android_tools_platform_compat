@@ -1,0 +1,2188 @@
+{
+  "comments": [
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "fe6fbbc6_006a331d",
+        "filename": "class2nonsdklist/src/com/android/class2nonsdklist/AnnotationContext.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 42,
+        "startChar": 9,
+        "endLine": 42,
+        "endChar": 17
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "a7727693_1fb29726",
+        "filename": "class2nonsdklist/src/com/android/class2nonsdklist/Class2NonSdkList.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 185,
+        "startChar": 45,
+        "endLine": 185,
+        "endChar": 53
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "e3a3fd0e_68ce420e",
+        "filename": "class2nonsdklist/src/com/android/class2nonsdklist/Class2NonSdkList.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 193,
+        "startChar": 16,
+        "endLine": 193,
+        "endChar": 24
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "39efe0b9_2b43b05e",
+        "filename": "class2nonsdklist/src/com/android/class2nonsdklist/CovariantReturnTypeHandler.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 14,
+        "startChar": 63,
+        "endLine": 14,
+        "endChar": 72
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "deddf6b7_544d485b",
+        "filename": "class2nonsdklist/src/com/android/class2nonsdklist/CovariantReturnTypeHandler.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 17,
+        "startChar": 8,
+        "endLine": 17,
+        "endChar": 17
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "41e1d423_e6c5111a",
+        "filename": "class2nonsdklist/src/com/android/class2nonsdklist/RequiredAlternativeNotSpecifiedError.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 20,
+        "startChar": 33,
+        "endLine": 20,
+        "endChar": 41
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "ab3b5f16_6f6c9a37",
+        "filename": "class2nonsdklist/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandler.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 19,
+        "startChar": 65,
+        "endLine": 19,
+        "endChar": 73
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "fdd6a0cc_0fe3e5fa",
+        "filename": "class2nonsdklist/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandler.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 27,
+        "startChar": 51,
+        "endLine": 27,
+        "endChar": 59
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "5869a816_b5edbe68",
+        "filename": "class2nonsdklist/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandler.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 31,
+        "startChar": 21,
+        "endLine": 31,
+        "endChar": 29
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "5a07d7c5_4b47c319",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/CovariantReturnTypeHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 62,
+        "startChar": 30,
+        "endLine": 62,
+        "endChar": 39
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "7b69795d_f2e0d7fc",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/CovariantReturnTypeHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 108,
+        "startChar": 37,
+        "endLine": 108,
+        "endChar": 46
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "30c3385d_3fa34dc6",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 76,
+        "startChar": 55,
+        "endLine": 76,
+        "endChar": 63
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "42d96405_31370b03",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 77,
+        "startChar": 72,
+        "endLine": 77,
+        "endChar": 80
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "abb285ae_2651b028",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 80,
+        "startChar": 36,
+        "endLine": 80,
+        "endChar": 44
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "5156f8b2_43adda40",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 84,
+        "startChar": 20,
+        "endLine": 84,
+        "endChar": 28
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "0ad44593_78f884ee",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 95,
+        "startChar": 50,
+        "endLine": 95,
+        "endChar": 58
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "c5a81342_d5988b3f",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 99,
+        "startChar": 31,
+        "endLine": 99,
+        "endChar": 39
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "9dbdbb8f_1287feb0",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 100,
+        "startChar": 44,
+        "endLine": 100,
+        "endChar": 52
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "86ef8c02_7c3ce2bf",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 101,
+        "startChar": 19,
+        "endLine": 101,
+        "endChar": 27
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "cf330bb9_1d45fc47",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 105,
+        "startChar": 20,
+        "endLine": 105,
+        "endChar": 28
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "412c8c87_ff785ce7",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 116,
+        "startChar": 50,
+        "endLine": 116,
+        "endChar": 58
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "f713c72d_7559198e",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 120,
+        "startChar": 31,
+        "endLine": 120,
+        "endChar": 39
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "d9195190_64d3223c",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 121,
+        "startChar": 44,
+        "endLine": 121,
+        "endChar": 52
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "0f1dba36_5cef9228",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 122,
+        "startChar": 19,
+        "endLine": 122,
+        "endChar": 27
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "9048493b_c2e8638d",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 126,
+        "startChar": 20,
+        "endLine": 126,
+        "endChar": 28
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "ce64575b_29085116",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 137,
+        "startChar": 50,
+        "endLine": 137,
+        "endChar": 58
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "4a471add_4fbef61d",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 141,
+        "startChar": 31,
+        "endLine": 141,
+        "endChar": 39
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "38d4df62_7f3bd54f",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 142,
+        "startChar": 44,
+        "endLine": 142,
+        "endChar": 52
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "566f5aa3_747afca0",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 143,
+        "startChar": 19,
+        "endLine": 143,
+        "endChar": 27
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "cf18cc21_301683da",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 147,
+        "startChar": 20,
+        "endLine": 147,
+        "endChar": 28
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "5bfcd370_7041546b",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 158,
+        "startChar": 46,
+        "endLine": 158,
+        "endChar": 54
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "3cff5e8f_72c61b61",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 162,
+        "startChar": 31,
+        "endLine": 162,
+        "endChar": 39
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "a62bc0fd_44495341",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 163,
+        "startChar": 44,
+        "endLine": 163,
+        "endChar": 52
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "e9331ff8_26470728",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 164,
+        "startChar": 19,
+        "endLine": 164,
+        "endChar": 27
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "293a5359_4df5a09b",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 168,
+        "startChar": 20,
+        "endLine": 168,
+        "endChar": 28
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "fc7f3369_7f888b60",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 179,
+        "startChar": 46,
+        "endLine": 179,
+        "endChar": 54
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "f5112f1b_2eacdda1",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 190,
+        "startChar": 20,
+        "endLine": 190,
+        "endChar": 28
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "d9fbb017_4f1df111",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 201,
+        "startChar": 46,
+        "endLine": 201,
+        "endChar": 54
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "a4134cdd_67fe384d",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 211,
+        "startChar": 20,
+        "endLine": 211,
+        "endChar": 28
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "7497f66c_aa0f1e49",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 222,
+        "startChar": 50,
+        "endLine": 222,
+        "endChar": 58
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "61c9477a_3e6a96d0",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 226,
+        "startChar": 31,
+        "endLine": 226,
+        "endChar": 39
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "76f16585_51b8f472",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 227,
+        "startChar": 44,
+        "endLine": 227,
+        "endChar": 52
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "f28e52ea_01b653c2",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 228,
+        "startChar": 19,
+        "endLine": 228,
+        "endChar": 27
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "e7972103_5c63672d",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 232,
+        "startChar": 20,
+        "endLine": 232,
+        "endChar": 28
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "7171e7f3_b05fbdec",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 243,
+        "startChar": 50,
+        "endLine": 243,
+        "endChar": 58
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "18d0ff2a_c52fc743",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 250,
+        "startChar": 20,
+        "endLine": 250,
+        "endChar": 28
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "1a590136_9e8faa65",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 263,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 263,
+        "startChar": 50,
+        "endLine": 263,
+        "endChar": 58
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "57d2e8b2_f26f5b5e",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 267,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 267,
+        "startChar": 31,
+        "endLine": 267,
+        "endChar": 39
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "75566333_a488bd4f",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 268,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 268,
+        "startChar": 44,
+        "endLine": 268,
+        "endChar": 52
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "82086687_01f5ee94",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 269,
+        "startChar": 19,
+        "endLine": 269,
+        "endChar": 27
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "64baa011_4e28c469",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 273,
+        "startChar": 29,
+        "endLine": 273,
+        "endChar": 37
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "a1bbd1ef_32383023",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 282,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 282,
+        "startChar": 50,
+        "endLine": 282,
+        "endChar": 58
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "e6766884_cea38752",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 301,
+        "startChar": 50,
+        "endLine": 301,
+        "endChar": 58
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "0b9dd52b_65d663a3",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 305,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 305,
+        "startChar": 31,
+        "endLine": 305,
+        "endChar": 39
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "ea656e4a_3c370e86",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 306,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 306,
+        "startChar": 44,
+        "endLine": 306,
+        "endChar": 52
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "5ce6c2d9_fb34ba00",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 307,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 307,
+        "startChar": 19,
+        "endLine": 307,
+        "endChar": 27
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "2a2bc491_345eb85d",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 329,
+        "startChar": 50,
+        "endLine": 329,
+        "endChar": 58
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "d8ef604a_e51312b0",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 334,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 334,
+        "startChar": 31,
+        "endLine": 334,
+        "endChar": 39
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "4123efc5_7fa9bbc6",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 335,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 335,
+        "startChar": 70,
+        "endLine": 335,
+        "endChar": 78
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "cad9d5b3_f289e7a0",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 336,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 336,
+        "startChar": 44,
+        "endLine": 336,
+        "endChar": 52
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "aff9b0da_ae75af4b",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 337,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 337,
+        "startChar": 19,
+        "endLine": 337,
+        "endChar": 27
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "55a64262_e2712232",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 361,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 361,
+        "startChar": 50,
+        "endLine": 361,
+        "endChar": 58
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "45682fe4_11c23236",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 366,
+        "startChar": 31,
+        "endLine": 366,
+        "endChar": 39
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "375d004b_9e3dc3c0",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 367,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 367,
+        "startChar": 70,
+        "endLine": 367,
+        "endChar": 78
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "fbc0cdc1_cc303a66",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 368,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 368,
+        "startChar": 44,
+        "endLine": 368,
+        "endChar": 52
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "7fdd5d16_023ac848",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 369,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 369,
+        "startChar": 19,
+        "endLine": 369,
+        "endChar": 27
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "f5860bb3_9301aca6",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 397,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 397,
+        "startChar": 50,
+        "endLine": 397,
+        "endChar": 58
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "d08f27f4_eb543947",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 404,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 404,
+        "startChar": 31,
+        "endLine": 404,
+        "endChar": 39
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "3feaa698_a6f79d8a",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 405,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 405,
+        "startChar": 70,
+        "endLine": 405,
+        "endChar": 78
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "0a31e690_30e89693",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 406,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 406,
+        "startChar": 44,
+        "endLine": 406,
+        "endChar": 52
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "0a6656d0_f46cf01e",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 407,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 407,
+        "startChar": 19,
+        "endLine": 407,
+        "endChar": 27
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "1c5384fe_3ca5591d",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 444,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 444,
+        "startChar": 31,
+        "endLine": 444,
+        "endChar": 39
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "9c7c1f34_77110148",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 446,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 446,
+        "startChar": 44,
+        "endLine": 446,
+        "endChar": 52
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "9970bbae_2a2ec464",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 447,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 447,
+        "startChar": 19,
+        "endLine": 447,
+        "endChar": 27
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "45b40621_9760640f",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 462,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 462,
+        "startChar": 50,
+        "endLine": 462,
+        "endChar": 58
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "956723eb_30931d55",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 467,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 467,
+        "startChar": 31,
+        "endLine": 467,
+        "endChar": 39
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "a4a8b2ed_c0b76652",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 468,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 468,
+        "startChar": 44,
+        "endLine": 468,
+        "endChar": 52
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "20442524_fbbb8a91",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 469,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 469,
+        "startChar": 19,
+        "endLine": 469,
+        "endChar": 27
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "07c85fb4_44c017ae",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 484,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 484,
+        "startChar": 50,
+        "endLine": 484,
+        "endChar": 58
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "9c82a318_59b10821",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 501,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 501,
+        "startChar": 50,
+        "endLine": 501,
+        "endChar": 58
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "254c276b_aa34cbd0",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 521,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 521,
+        "startChar": 50,
+        "endLine": 521,
+        "endChar": 58
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "c95e55d6_de1c6f04",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 541,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 541,
+        "startChar": 50,
+        "endLine": 541,
+        "endChar": 58
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "3e0a59b8_291b0cb0",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 569,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 569,
+        "startChar": 60,
+        "endLine": 569,
+        "endChar": 68
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000006681984",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1522979?revision\u003d1",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "e7fb20cf_8afb674e",
+        "filename": "class2nonsdklist/test/src/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandlerTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 603,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-12-10T15:32:15Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027deny list\u0027 or \u0027allow list\u0027; see https://developers.google.com/style/word-list#blacklist for more details. In the case of a false positive add BYPASS_INCLUSIVE_LANGUAGE_REASON\u003dmy_reason_here to your commit message to disable this check.",
+      "range": {
+        "startLine": 603,
+        "startChar": 60,
+        "endLine": 603,
+        "endChar": 68
+      },
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
