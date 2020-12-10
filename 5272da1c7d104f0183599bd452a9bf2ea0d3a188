@@ -33,6 +33,24 @@
       "message": "I realized that this repo uses a google3/ style organization for java code, with java source going under tools/platform-compat/java and test coed under tools/platform-compat/javatests, with Android.bp files alongside the code, e.g. http://cs/android/tools/platform-compat/java/android/compat/annotation/Android.bp\n\nDo you mind following the existing convention with this CL? Shouldn\u0027t be *too* much extra effort",
       "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e6174b5_53385ba2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2020-12-10T16:07:31Z",
+      "side": 1,
+      "message": "I\u0027ll do that as a follow up change. That way git can track the file moves and it will be easier to see the build changes.",
+      "parentUuid": "21997c59_9cb87a38",
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
