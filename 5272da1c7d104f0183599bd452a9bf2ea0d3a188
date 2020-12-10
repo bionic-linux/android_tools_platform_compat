@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f180af4_bcb06f3f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2020-12-10T15:48:34Z",
+      "side": 1,
+      "message": "Assuming you didn\u0027t actually make any code changes here 😊",
+      "revId": "5272da1c7d104f0183599bd452a9bf2ea0d3a188",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
