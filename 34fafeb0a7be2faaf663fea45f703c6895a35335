@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6b5b49b_9ef28e8e",
+        "filename": "libjavac/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1431994
+      },
+      "writtenOn": "2020-12-11T13:55:11Z",
+      "side": 1,
+      "message": "nit: Should probably be restricted to only `class2nonsdklist`",
+      "range": {
+        "startLine": 19,
+        "startChar": 17,
+        "endLine": 19,
+        "endChar": 39
+      },
+      "revId": "34fafeb0a7be2faaf663fea45f703c6895a35335",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
