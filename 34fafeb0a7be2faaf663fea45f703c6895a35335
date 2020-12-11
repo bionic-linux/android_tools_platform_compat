@@ -22,6 +22,30 @@
       },
       "revId": "34fafeb0a7be2faaf663fea45f703c6895a35335",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "160cf093_8f50ded2",
+        "filename": "libjavac/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2020-12-11T15:18:06Z",
+      "side": 1,
+      "message": "I\u0027ll leave that up to you to sort out.",
+      "parentUuid": "b6b5b49b_9ef28e8e",
+      "range": {
+        "startLine": 19,
+        "startChar": 17,
+        "endLine": 19,
+        "endChar": 39
+      },
+      "revId": "34fafeb0a7be2faaf663fea45f703c6895a35335",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
