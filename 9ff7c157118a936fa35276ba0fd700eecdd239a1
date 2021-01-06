@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d41d2d2_ff91a6d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1431994
+      },
+      "writtenOn": "2021-01-06T11:53:55Z",
+      "side": 1,
+      "message": "LGTM; should probably amend this CTS test http://cs/android/cts/hostsidetests/appcompat/compatchanges/src/com/android/cts/appcompat/CompatChangesValidConfigTest.java to ensure changes don\u0027t get turned into overridable. There\u0027s an in-flight change that should refactor this test, so probably should wait for that to get merged.",
+      "revId": "9ff7c157118a936fa35276ba0fd700eecdd239a1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16e84011_d7435a52",
+        "filename": "javatest/android/processor/compat/changeid/XmlWriterTest.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1431994
+      },
+      "writtenOn": "2021-01-06T11:53:55Z",
+      "side": 1,
+      "message": "nice",
+      "range": {
+        "startLine": 92,
+        "startChar": 20,
+        "endLine": 92,
+        "endChar": 24
+      },
+      "revId": "9ff7c157118a936fa35276ba0fd700eecdd239a1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
