@@ -22,6 +22,30 @@
       },
       "revId": "e967d760c8a439f875362f51b8d088bec66df5fa",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e49ae712_8736a128",
+        "filename": "java/com/android/class2nonsdklist/UnsupportedAppUsageAnnotationHandler.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2021-01-12T15:35:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "40f41eef_0f164412",
+      "range": {
+        "startLine": 160,
+        "startChar": 23,
+        "endLine": 160,
+        "endChar": 25
+      },
+      "revId": "e967d760c8a439f875362f51b8d088bec66df5fa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
