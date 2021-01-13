@@ -16,6 +16,23 @@
       "message": "Fixed typo comment",
       "revId": "a20f99b2e0189e08097daef98b420992bc22a92c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f098990b_e5c0c19f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2021-01-13T09:42:15Z",
+      "side": 1,
+      "message": "Need a fresh +2 (seems it\u0027s not sticky in this project?)",
+      "revId": "a20f99b2e0189e08097daef98b420992bc22a92c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
