@@ -19,6 +19,7 @@ java_test_host {
     srcs: ["**/*.java"],
 
     static_libs: [
+        "annotationvisitor-testutil",
         "class2nonsdklistlib",
         "libjavac",
         "truth-host-prebuilt",
