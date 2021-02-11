@@ -14,11 +14,10 @@
 
 java_test_host {
     name: "class2nonsdklisttest",
-
-    // Only compile source java files in this apk.
-    srcs: ["**/*.java"],
-
+    // Only compile source java files in this package.
+    srcs: ["*.java"],
     static_libs: [
+        "annotationvisitor-testutil",
         "class2nonsdklistlib",
         "libjavac",
         "truth-host-prebuilt",
@@ -26,4 +25,5 @@ java_test_host {
         "junit-host",
         "objenesis",
     ],
+    test_suites: ["general-tests"],
 }
