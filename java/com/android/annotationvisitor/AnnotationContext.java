@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 The Android Open Source Project
+ * Copyright (C) 2021 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.class2nonsdklist;
+package com.android.annotationvisitor;
 
 import org.apache.bcel.Const;
 import org.apache.bcel.classfile.JavaClass;
@@ -22,7 +22,7 @@ import org.apache.bcel.classfile.JavaClass;
  */
 public abstract class AnnotationContext implements StatusReporter {
 
-  public final Status status;
+  public final com.android.annotationvisitor.Status status;
   public final JavaClass definingClass;
 
   public AnnotationContext(Status status, JavaClass definingClass) {
