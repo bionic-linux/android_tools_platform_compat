@@ -15,22 +15,10 @@
 //
 
 java_library_host {
-    name: "class2nonsdklistlib",
+    name: "annotationvisitor",
     srcs: ["*.java"],
     static_libs: [
-        "annotationvisitor",
-        "commons-cli-1.2",
         "apache-bcel",
         "guava",
-        "testng",
-        "hamcrest-library",
-    ],
-}
-
-java_binary_host {
-    name: "class2nonsdklist",
-    manifest: "class2nonsdklist.mf",
-    static_libs: [
-        "class2nonsdklistlib",
     ],
 }

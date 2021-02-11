@@ -1,6 +1,6 @@
 package com.android.class2nonsdklist;
 
-import com.google.common.annotations.VisibleForTesting;
+import com.android.annotationvisitor.AnnotationConsumer;
 
 import java.io.File;
 import java.io.FileNotFoundException;
