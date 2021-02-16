@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "29940d98_762663ba",
+        "filename": "java/com/android/class2nonsdklist/AnnotationPropertyWriter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2021-02-16T16:34:32Z",
+      "side": 1,
+      "message": "FYI we have specific sorting for these signatures (in different files) here:\n  http://cs/android/frameworks/base/tools/hiddenapi/sort_api.sh?l\u003d18\u0026rcl\u003d90afd1c06bec4dd7b4451d3c0bd0e454399cf242\n\nwhich gives a more natural ordering in this context. Would be nice to do the same here (but by no means essential)",
+      "revId": "dd46449dc8ed2870c8bc7801e0bfc931f53a11af",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
