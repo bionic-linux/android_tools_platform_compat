@@ -16,6 +16,24 @@
       "message": "FYI we have specific sorting for these signatures (in different files) here:\n  http://cs/android/frameworks/base/tools/hiddenapi/sort_api.sh?l\u003d18\u0026rcl\u003d90afd1c06bec4dd7b4451d3c0bd0e454399cf242\n\nwhich gives a more natural ordering in this context. Would be nice to do the same here (but by no means essential)",
       "revId": "dd46449dc8ed2870c8bc7801e0bfc931f53a11af",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07c9415f_31f2b129",
+        "filename": "java/com/android/class2nonsdklist/AnnotationPropertyWriter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2021-02-16T16:50:11Z",
+      "side": 1,
+      "message": "Any ordering is fine as long as it is consistent and fast which this should be. I tried running that script on the largest monolothic file and it took 12 seconds which is too long for the build.\n\nIf we did need to be consistent with that script we could modify this to use a similar collation order but it is not a simple change so I will leave it for now.",
+      "parentUuid": "29940d98_762663ba",
+      "revId": "dd46449dc8ed2870c8bc7801e0bfc931f53a11af",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
