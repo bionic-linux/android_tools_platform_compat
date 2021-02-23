@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d79c4fb_9dd75292",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2021-02-23T10:16:00Z",
+      "side": 1,
+      "message": "Thanks for fixing this. I didn\u0027t have much time yesterday.",
+      "revId": "5cb3b7200d3faf83f236b0d9ee97b3415f9f262f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
