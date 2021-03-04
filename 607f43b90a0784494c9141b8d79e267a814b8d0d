@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f23a2d4_0129e3f9",
+        "filename": "javatest/com/android/annotationvisitor/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1088076
+      },
+      "writtenOn": "2021-03-04T21:22:05Z",
+      "side": 1,
+      "message": "space",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 1
+      },
+      "revId": "607f43b90a0784494c9141b8d79e267a814b8d0d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
