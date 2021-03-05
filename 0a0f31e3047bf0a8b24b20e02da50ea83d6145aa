@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f98809c_23a96b42",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003723
+      },
+      "writtenOn": "2021-03-05T17:09:25Z",
+      "side": 1,
+      "message": "bdc is no longer in owners: https://android-review.googlesource.com/c/tools/platform-compat/+/1619900",
+      "revId": "0a0f31e3047bf0a8b24b20e02da50ea83d6145aa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
