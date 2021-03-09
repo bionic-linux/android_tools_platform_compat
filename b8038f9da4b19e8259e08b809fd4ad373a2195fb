@@ -94,6 +94,30 @@
       },
       "revId": "b8038f9da4b19e8259e08b809fd4ad373a2195fb",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c1806ce_faa95f48",
+        "filename": "java/com/android/annotationvisitor/TEST_MAPPING",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1121894
+      },
+      "writtenOn": "2021-03-09T16:55:02Z",
+      "side": 0,
+      "message": "ah thanks for the reminder, i need to update the documentation to reflect the latest java_test changes.\n\nunit_test:true is not needed anymore on those.\n\nDoing this now.",
+      "parentUuid": "abc420d2_70223fd9",
+      "range": {
+        "startLine": 10,
+        "startChar": 14,
+        "endLine": 10,
+        "endChar": 49
+      },
+      "revId": "b8038f9da4b19e8259e08b809fd4ad373a2195fb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
