@@ -46,6 +46,30 @@
       },
       "revId": "b8038f9da4b19e8259e08b809fd4ad373a2195fb",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4521c550_67353b9b",
+        "filename": "java/com/android/annotationvisitor/TEST_MAPPING",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1121894
+      },
+      "writtenOn": "2021-03-09T15:51:25Z",
+      "side": 0,
+      "message": "Yes we currently run all host unit tests, and are looking in parallel for optimization (like dependency graphs, etc.).\n(See go/a-unit-tests for a bit of details)\n\nBut generally, if it\u0027s a unit tests, it will run in presubmit. We don\u0027t want devs to hesitate.",
+      "parentUuid": "278313e9_70c48384",
+      "range": {
+        "startLine": 10,
+        "startChar": 14,
+        "endLine": 10,
+        "endChar": 49
+      },
+      "revId": "b8038f9da4b19e8259e08b809fd4ad373a2195fb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
