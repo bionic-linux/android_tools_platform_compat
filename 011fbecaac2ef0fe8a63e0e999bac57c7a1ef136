@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "72f422e5_72ee81af",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2021-04-12T16:39:36Z",
+      "side": 0,
+      "message": "you can also remove these vars from soong as well",
+      "range": {
+        "startLine": 24,
+        "startChar": 34,
+        "endLine": 24,
+        "endChar": 79
+      },
+      "revId": "011fbecaac2ef0fe8a63e0e999bac57c7a1ef136",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
