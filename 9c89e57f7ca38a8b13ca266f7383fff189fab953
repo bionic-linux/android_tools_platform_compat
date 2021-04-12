@@ -22,6 +22,30 @@
       },
       "revId": "9c89e57f7ca38a8b13ca266f7383fff189fab953",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a01fecc8_fc3e7778",
+        "filename": "java/com/android/class2nonsdklist/ApiResolver.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2021-04-12T18:43:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baaad95d_0cf98cb8",
+      "range": {
+        "startLine": 85,
+        "startChar": 0,
+        "endLine": 100,
+        "endChar": 24
+      },
+      "revId": "9c89e57f7ca38a8b13ca266f7383fff189fab953",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
