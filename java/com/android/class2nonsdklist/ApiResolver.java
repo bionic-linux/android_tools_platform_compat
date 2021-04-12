@@ -82,22 +82,22 @@ public class ApiResolver {
                     if (!mPublicApiClasses.contains(alternative.getPackageAndClassName())) {
                         throw new ClassAlternativeNotFoundError(alternative);
                     }
-                } else if (!mPotentialPublicAlternatives.contains(alternative)) {
-                    // If the link is not a public alternative, it must because the link does not
-                    // contain the method parameter types, e.g. {@link foo.bar.Baz#foo} instead of
-                    // {@link foo.bar.Baz#foo(int)}. If the method name is unique within the class,
-                    // we can handle it.
-                    if (!Strings.isNullOrEmpty(alternative.getMethodParameterTypes())) {
-                        throw new MemberAlternativeNotFoundError(alternative);
-                    }
-                    List<ApiComponents> almostMatches = mPotentialPublicAlternatives.stream()
-                            .filter(api -> api.equalsIgnoringParam(alternative))
-                            .collect(Collectors.toList());
-                    if (almostMatches.size() == 0) {
-                        throw new MemberAlternativeNotFoundError(alternative);
-                    } else if (almostMatches.size() > 1) {
-                        throw new MultipleAlternativesFoundWarning(alternative, almostMatches);
-                    }
+                // } else if (!mPotentialPublicAlternatives.contains(alternative)) {
+                //     // If the link is not a public alternative, it must because the link does not
+                //     // contain the method parameter types, e.g. {@link foo.bar.Baz#foo} instead of
+                //     // {@link foo.bar.Baz#foo(int)}. If the method name is unique within the class,
+                //     // we can handle it.
+                //     if (!Strings.isNullOrEmpty(alternative.getMethodParameterTypes())) {
+                //         throw new MemberAlternativeNotFoundError(alternative);
+                //     }
+                //     List<ApiComponents> almostMatches = mPotentialPublicAlternatives.stream()
+                //             .filter(api -> api.equalsIgnoringParam(alternative))
+                //             .collect(Collectors.toList());
+                //     if (almostMatches.size() == 0) {
+                //         throw new MemberAlternativeNotFoundError(alternative);
+                //     } else if (almostMatches.size() > 1) {
+                //         throw new MultipleAlternativesFoundWarning(alternative, almostMatches);
+                //     }
                 }
             }
             // No {@link ...} alternatives exist; try looking for {@code ...}
