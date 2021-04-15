@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "39966cbb_22d64925",
+        "filename": "hiddenapi/prevent_additions.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2021-04-15T13:52:45Z",
+      "side": 1,
+      "message": "can we explicitly state the packages? (could be passed as an arg to the script?)",
+      "range": {
+        "startLine": 12,
+        "startChar": 30,
+        "endLine": 12,
+        "endChar": 38
+      },
+      "revId": "a2680da0319cc83dae31a24256f96b8c393708ca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
