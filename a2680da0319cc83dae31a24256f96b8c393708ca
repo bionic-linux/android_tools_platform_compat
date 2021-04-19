@@ -87,6 +87,30 @@
       },
       "revId": "a2680da0319cc83dae31a24256f96b8c393708ca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0fd4ef66_647f45f6",
+        "filename": "hiddenapi/prevent_additions.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2021-04-19T09:44:48Z",
+      "side": 1,
+      "message": "The intent of this is to encourage people to switch to using UnsupportedAppUsage annotations. If someone is renaming a method then they can easily just add an annotation and remove the entry from the file altogether.\n\nIt is basically replicating the mechanism that already exists in frameworks/base/tools/hiddenapi/exclude.sh to prevent additional entries. This is simpler as it does not need to treat the entries differently depending on what package they\u0027re in.\n\nIt is not clear to me what the presubmit check does. If seems likely based on https://r.android.com/1228421 that it generates the hidden API flags and then compares that against some base set to see the difference. If so then it probably does not care whether the flags come from annotations or flag files and so it is not doing the same job as this script will.",
+      "parentUuid": "199fa961_2fd6fcd9",
+      "range": {
+        "startLine": 12,
+        "startChar": 30,
+        "endLine": 12,
+        "endChar": 38
+      },
+      "revId": "a2680da0319cc83dae31a24256f96b8c393708ca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
