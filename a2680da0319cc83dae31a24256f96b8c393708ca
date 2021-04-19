@@ -111,6 +111,30 @@
       },
       "revId": "a2680da0319cc83dae31a24256f96b8c393708ca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "760018ae_a9a1c50d",
+        "filename": "hiddenapi/prevent_additions.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2021-04-19T10:22:59Z",
+      "side": 1,
+      "message": "Adding new unsupported APIS is already banned by go/nonsdk/ref/presubmit, regardless of whether it\u0027s via annotation or adding to these files. See the table under \"Strategy\" there.\n\nSo I\u0027d argue that this is unnecessary. It doesn\u0027t do anything that isn\u0027t enforced elsewhere, and will just create extra overhead if listed APIs get renamed.",
+      "parentUuid": "0fd4ef66_647f45f6",
+      "range": {
+        "startLine": 12,
+        "startChar": 30,
+        "endLine": 12,
+        "endChar": 38
+      },
+      "revId": "a2680da0319cc83dae31a24256f96b8c393708ca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
