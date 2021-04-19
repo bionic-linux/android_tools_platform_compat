@@ -135,6 +135,30 @@
       },
       "revId": "a2680da0319cc83dae31a24256f96b8c393708ca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c75064d0_b61cf977",
+        "filename": "hiddenapi/prevent_additions.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2021-04-19T11:09:47Z",
+      "side": 1,
+      "message": "If the presubmit check didn\u0027t allow renames then I would agree. There would still be a benefit to detecting it early at upload time instead of during presubmit but it would be much smaller.\n\nHowever, allowing renames seems like a big hole. A rename breaks apps just as much as removing the method completely would. Yes, the app can be fixed more easily by just looking for the new method (with some fallback mechanism to the old) but that is still work for the app developer and at the end they are no better off than they were at the beginning, in fact they are worse off because now their code is a little more complicated.\n\nI think that if the owner wants to rename the method then they should be required to leave a stub behind (with the UnsupportedAppUsage annotation) that delegates to the new method. It costs them very little and avoids any app compatibility issues altogether - which is the whole point of this mechanism in the first place.\n\nDetecting renames reliably is very difficult, you would have to look at the implementation in order to know whether the new method was actually just the old method with a different name or a completely new method that was added at the same time, and with the same signature as . It opens up the possibility of the presubmit assuming that a change was a rename when in fact it was not which would allow new non-public methods to be added to the hidden API and old used-by-app methods to be completely removed.\n\nThe libcore, icu and conscrypt team have already relied on the frameworks/base/tools/hiddenapi/exclude.sh script to protect them from new entries being added (including renames) without complaint. This script simply replicates that.\n\nAt the end of the day I think it should be up to the code owners to decide whether they want to enforce stricter rules than that enforced by the presubmit check. This script will make it easy for them to opt-in and avoids having to duplicate it in each of their repositories.",
+      "parentUuid": "760018ae_a9a1c50d",
+      "range": {
+        "startLine": 12,
+        "startChar": 30,
+        "endLine": 12,
+        "endChar": 38
+      },
+      "revId": "a2680da0319cc83dae31a24256f96b8c393708ca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
