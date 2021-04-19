@@ -63,6 +63,30 @@
       },
       "revId": "a2680da0319cc83dae31a24256f96b8c393708ca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "199fa961_2fd6fcd9",
+        "filename": "hiddenapi/prevent_additions.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2021-04-19T09:32:41Z",
+      "side": 1,
+      "message": "Oh, so you\u0027re requiring that no additions are made to those files?\n\nWhat about renames? This will prevent those too, as they show as an add and remove in the git diff view. That doesn\u0027t seem right and will require people of bypass the upload hook. (renames are ok as per go/nonsdk/ref/policy)\n\nSince we have go/nonsdk/ref/presubmit I think it would be much better to enforce that there. We have login in there to distinguish adds from renames already.",
+      "parentUuid": "4bfc8462_7a24ee78",
+      "range": {
+        "startLine": 12,
+        "startChar": 30,
+        "endLine": 12,
+        "endChar": 38
+      },
+      "revId": "a2680da0319cc83dae31a24256f96b8c393708ca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
