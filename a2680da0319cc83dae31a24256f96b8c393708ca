@@ -183,6 +183,30 @@
       },
       "revId": "a2680da0319cc83dae31a24256f96b8c393708ca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "94bcb7b8_ba75a1a9",
+        "filename": "hiddenapi/prevent_additions.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2021-04-19T13:04:27Z",
+      "side": 1,
+      "message": "\u003e Renames are specifically allowed in certain circumstances...\n\nThat implies that there are restrictions on when renames are allowed. If true then the documentation needs updating as it does not describe any such restrictions.\n\n\u003e I really believe a consistent policy across the entire codebase is better\n\nIdeally, yes as it makes things like LSC easier. However, I don\u0027t see any issue with code owners having more restrictive policies on renames given that renames are not an inherently safe operation.\n\nHowever, as you said, your repo, your choice.",
+      "parentUuid": "48cfa158_136af29e",
+      "range": {
+        "startLine": 12,
+        "startChar": 30,
+        "endLine": 12,
+        "endChar": 38
+      },
+      "revId": "a2680da0319cc83dae31a24256f96b8c393708ca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
