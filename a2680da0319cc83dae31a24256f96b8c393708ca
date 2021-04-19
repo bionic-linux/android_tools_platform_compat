@@ -159,6 +159,30 @@
       },
       "revId": "a2680da0319cc83dae31a24256f96b8c393708ca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "48cfa158_136af29e",
+        "filename": "hiddenapi/prevent_additions.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2021-04-19T12:23:02Z",
+      "side": 1,
+      "message": "This is all covered by the hiddenapi policy and I don\u0027t want to rehash it now. Renames are specifically allowed in certain circumstances, and the presubmit has heuristics to detect renames vs a delete and add.\n\nGiven that I don\u0027t think this script has much value. If you still feel that you need it, feel free to put it in the projects where you want it. Putting it in here implies that it\u0027s supported/recommened by the compat team which is not the case.\n\n\u003e At the end of the day I think it should be up to the code owners\n\nI really believe a consistent policy across the entire codebase is better, which is what the existing presubmit enforces.",
+      "parentUuid": "c75064d0_b61cf977",
+      "range": {
+        "startLine": 12,
+        "startChar": 30,
+        "endLine": 12,
+        "endChar": 38
+      },
+      "revId": "a2680da0319cc83dae31a24256f96b8c393708ca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
