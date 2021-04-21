@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8adada94_a25a98c3",
+        "filename": "java/android/compat/testing/Classpaths.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2021-04-21T09:15:59Z",
+      "side": 1,
+      "message": "remoteJarPath",
+      "range": {
+        "startLine": 68,
+        "startChar": 19,
+        "endLine": 68,
+        "endChar": 32
+      },
+      "revId": "bb2f7c4f6d311f0fafe11430fa3a82f5f234ca84",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
