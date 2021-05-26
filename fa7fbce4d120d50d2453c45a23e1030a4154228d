@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0374935d_e9b53259",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2021-05-26T15:57:07Z",
+      "side": 1,
+      "message": "Shubhangi, this is needed for a new CTS I am adding in r.android.com/1719570. I cannot submit (the button is greyed out), can you submit this change instead?",
+      "revId": "fa7fbce4d120d50d2453c45a23e1030a4154228d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
