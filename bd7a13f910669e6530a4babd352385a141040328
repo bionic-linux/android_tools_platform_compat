@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e542a40b_5c96d990",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1060959
+      },
+      "writtenOn": "2021-06-09T16:22:25Z",
+      "side": 1,
+      "message": "I don\u0027t get it, if tradefed bundled it, why do you need it in libs, given tradefed is in libs?",
+      "revId": "bd7a13f910669e6530a4babd352385a141040328",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
