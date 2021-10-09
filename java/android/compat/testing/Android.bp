@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+<<<<<<< HEAD   (2114cf Snap for 6344956 from 8b897ebc7ea03f32f022c77f818b1dc77b0f4e)
 package {
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
@@ -33,5 +34,19 @@ java_test_helper_library {
     static_libs: [
         "dexlib2-no-guava-no-cli",
         "modules-utils-build-testing",
+=======
+java_test_helper_library {
+    name: "compat-classpaths-testing",
+    srcs: ["Classpaths.java"],
+    host_supported: true,
+    device_supported: false,
+    libs: [
+        //"cts-tradefed",
+        "tradefed",
+    ],
+    static_libs: [
+        "dexlib2-no-guava-no-cli",
+        "guava",
+>>>>>>> BRANCH (2a4276 Add a testing util for accessing classpath jars on a device.)
     ],
 }

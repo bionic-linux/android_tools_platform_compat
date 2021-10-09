@@ -17,6 +17,7 @@
 package android.compat.testing;
 
 import static com.google.common.truth.Truth.assertThat;
+<<<<<<< HEAD   (2114cf Snap for 6344956 from 8b897ebc7ea03f32f022c77f818b1dc77b0f4e)
 import static com.google.common.truth.Truth.assertWithMessage;
 
 import com.android.compatibility.common.tradefed.build.CompatibilityBuildHelper;
@@ -150,6 +151,69 @@ public final class Classpaths {
             assertWithMessage(errorBuilder.toString()).that(result.hasFailedTests()).isFalse();
         } finally {
             device.uninstallPackage(packageName);
+=======
+
+import com.android.tradefed.device.DeviceNotAvailableException;
+import com.android.tradefed.device.ITestDevice;
+import com.android.tradefed.util.CommandResult;
+import com.android.tradefed.util.CommandStatus;
+import com.android.tradefed.util.FileUtil;
+
+import com.google.common.collect.ImmutableList;
+import com.google.common.collect.ImmutableSet;
+
+import org.jf.dexlib2.DexFileFactory;
+import org.jf.dexlib2.Opcodes;
+import org.jf.dexlib2.dexbacked.DexBackedDexFile;
+import org.jf.dexlib2.iface.ClassDef;
+import org.jf.dexlib2.iface.MultiDexContainer;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Objects;
+
+/**
+ * Testing utilities for parsing *CLASSPATH environ variables on a test device.
+ */
+public final class Classpaths {
+
+    private Classpaths() {
+    }
+
+    public enum ClasspathType {
+        BOOTCLASSPATH,
+        DEX2OATBOOTCLASSPATH,
+        SYSTEMSERVERCLASSPATH,
+    }
+
+    /** Returns on device filepaths to the jars that are part of a given classpath. */
+    public static ImmutableList<String> getJarsOnClasspath(ITestDevice device,
+            ClasspathType classpath) throws DeviceNotAvailableException {
+        CommandResult shellResult = device.executeShellV2Command("echo $" + classpath);
+        assertThat(shellResult.getStatus()).isEqualTo(CommandStatus.SUCCESS);
+        assertThat(shellResult.getExitCode()).isEqualTo(0);
+
+        String value = shellResult.getStdout().trim();
+        assertThat(value).isNotEmpty();
+        return ImmutableList.copyOf(value.split(":"));
+    }
+
+    /** Returns classes defined a given jar file on the test device. */
+    public static ImmutableSet<ClassDef> getClassDefsFromJar(ITestDevice device,
+            String remoteJarPath) throws DeviceNotAvailableException, IOException {
+        File jar = null;
+        try {
+            jar = Objects.requireNonNull(device.pullFile(remoteJarPath));
+            MultiDexContainer<? extends DexBackedDexFile> container =
+                    DexFileFactory.loadDexContainer(jar, Opcodes.getDefault());
+            ImmutableSet.Builder<ClassDef> set = ImmutableSet.builder();
+            for (String dexName : container.getDexEntryNames()) {
+                set.addAll(Objects.requireNonNull(container.getEntry(dexName)).getClasses());
+            }
+            return set.build();
+        } finally {
+            FileUtil.deleteFile(jar);
+>>>>>>> BRANCH (2a4276 Add a testing util for accessing classpath jars on a device.)
         }
     }
 
