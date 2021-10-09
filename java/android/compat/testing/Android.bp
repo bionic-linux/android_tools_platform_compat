@@ -32,6 +32,9 @@ java_test_helper_library {
     ],
     static_libs: [
         "dexlib2-no-guava-no-cli",
+<<<<<<< HEAD   (89b02e [automerger skipped] Add a testing util for accessing classp)
         "modules-utils-build-testing",
+=======
+>>>>>>> BRANCH (bd7a13 Don't staticically depend on guava.)
     ],
 }
