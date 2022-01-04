@@ -34,6 +34,24 @@
       "parentUuid": "173825ad_0edd5d13",
       "revId": "8cadace0bfba59521d9f8a42bdcfeb2fc2a3b9f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5b0d546_b1325a40",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2022-01-04T16:01:52Z",
+      "side": 1,
+      "message": "By the way, this is not a sufficient change by itself, runtime needs to understand max-target-s as well in cs/android/art/libartbase/base/hiddenapi_flags.h.\n\nb/169748350 has some details, but it\u0027s about the implementation of hiddenapi enforcement on Q/R. The list there can go up to max-target-r, and any new flag would be parsed as kInvalid. That has largely undefined behaviour at runtime, thus the question above.\n\nThe problem only occurs if any updatable apex that ships to Q and R (S fixed the problem) has any @UnsupportedAppUsage(max-target-s) defined in its code.",
+      "parentUuid": "41a57e0b_ba85b02d",
+      "revId": "8cadace0bfba59521d9f8a42bdcfeb2fc2a3b9f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
