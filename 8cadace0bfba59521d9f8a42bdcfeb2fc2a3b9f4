@@ -105,6 +105,24 @@
       "parentUuid": "f3a07147_9d8fbedd",
       "revId": "8cadace0bfba59521d9f8a42bdcfeb2fc2a3b9f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1502aa7d_0913752a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2022-01-06T13:25:31Z",
+      "side": 1,
+      "message": "I am still not sure this change is safe for Q/R devices that would get T apexes.",
+      "parentUuid": "89b3cac6_4f3d6a4f",
+      "revId": "8cadace0bfba59521d9f8a42bdcfeb2fc2a3b9f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
