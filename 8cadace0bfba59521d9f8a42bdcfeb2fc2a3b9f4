@@ -70,6 +70,23 @@
       "parentUuid": "b5b0d546_b1325a40",
       "revId": "8cadace0bfba59521d9f8a42bdcfeb2fc2a3b9f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3a07147_9d8fbedd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2022-01-06T09:40:01Z",
+      "side": 1,
+      "message": "I think you also need to update generate_hiddenapi_lists.py as per go/new-max-target-sdk#build-support\n\nYou should also notify zhuoyao@ as we need to follow the other steps on that page that are owner by engprod to keep the other tools working.",
+      "revId": "8cadace0bfba59521d9f8a42bdcfeb2fc2a3b9f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
