@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 # Copyright (C) 2019 The Android Open Source Project
 #
@@ -18,7 +18,7 @@
 
 import difflib
 import io
-from StringIO import StringIO
+from io import StringIO
 import unittest
 import xml.dom.minidom
 from inspect import currentframe, getframeinfo
@@ -85,14 +85,14 @@ class ProcessCompatConfigTest(unittest.TestCase):
         self.merger.merge(io.BytesIO(b'<config><compat-change id="1234" name="TEST_CHANGE" /></config>'), here())
         self.merger.merge(io.BytesIO(b'<config><compat-change id="1234" name="TEST_CHANGE2" /></config>'), here())
         self.assertIn(r'ERROR: Duplicate definitions for compat change with ID 1234', self.stderr.getvalue())
-        with self.assertRaisesRegexp(Exception, ' 1 .*error'):
+        with self.assertRaisesRegex(Exception, ' 1 .*error'):
             self.merger.write(self.xml)
 
     def test_merge_two_files_duplicate_name(self):
         self.merger.merge(io.BytesIO(b'<config><compat-change id="1234" name="TEST_CHANGE" /></config>'), here())
         self.merger.merge(io.BytesIO(b'<config><compat-change id="1235" name="TEST_CHANGE" /></config>'), here())
         self.assertIn(r'ERROR: Duplicate definitions for compat change with name TEST_CHANGE', self.stderr.getvalue())
-        with self.assertRaisesRegexp(Exception, ' 1 .*error'):
+        with self.assertRaisesRegex(Exception, ' 1 .*error'):
             self.merger.write(self.xml)
 
     def test_merge_two_files_duplicate_id_allow_duplicates(self):
