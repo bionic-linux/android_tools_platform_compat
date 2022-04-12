@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f0a488b_34c74b42",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1014443
+      },
+      "writtenOn": "2022-04-12T06:37:26Z",
+      "side": 1,
+      "message": "FYI -- we have some changes to properly support this in flight : https://android-review.googlesource.com/c/tools/platform-compat/+/1931762 . They will take some time to land due to some ART complexity.",
+      "revId": "d556ff424bc4aa6ed1897fc527bd02c55535c65f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
