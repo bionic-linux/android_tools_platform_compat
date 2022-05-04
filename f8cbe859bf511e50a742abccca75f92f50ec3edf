@@ -22,6 +22,30 @@
       },
       "revId": "f8cbe859bf511e50a742abccca75f92f50ec3edf",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a2bd1d2e_cfdbbbd5",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2022-05-04T10:13:19Z",
+      "side": 1,
+      "message": "The check I added failed because of:\nhttp://cs/android/packages/modules/Wifi/framework/java/android/net/wifi/WifiSsid.java?l\u003d214",
+      "parentUuid": "c41834f1_0193c457",
+      "range": {
+        "startLine": 15,
+        "startChar": 19,
+        "endLine": 15,
+        "endChar": 48
+      },
+      "revId": "f8cbe859bf511e50a742abccca75f92f50ec3edf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
