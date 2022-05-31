@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "acf84554_6e3611b4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2022-05-31T09:00:39Z",
+      "side": 1,
+      "message": "nit: bug number if we have one?",
+      "revId": "58e9602128a91c80a84f79580ab6656ede744223",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
