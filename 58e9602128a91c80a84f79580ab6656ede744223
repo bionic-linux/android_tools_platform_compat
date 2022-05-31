@@ -16,6 +16,24 @@
       "message": "nit: bug number if we have one?",
       "revId": "58e9602128a91c80a84f79580ab6656ede744223",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d17512fb_4036d1e5",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1863710
+      },
+      "writtenOn": "2022-05-31T09:43:17Z",
+      "side": 1,
+      "message": "We don\u0027t have one. We noticed some warnings now that Java 11 is used as the default target. I could use the Java 11 bug, though it\u0027s been closed a few months ago, or raise a new one.",
+      "parentUuid": "acf84554_6e3611b4",
+      "revId": "58e9602128a91c80a84f79580ab6656ede744223",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
