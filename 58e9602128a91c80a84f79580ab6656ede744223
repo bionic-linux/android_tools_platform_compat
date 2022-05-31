@@ -52,6 +52,24 @@
       "parentUuid": "d17512fb_4036d1e5",
       "revId": "58e9602128a91c80a84f79580ab6656ede744223",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba26e814_9cac8157",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1061164
+      },
+      "writtenOn": "2022-05-31T09:59:45Z",
+      "side": 1,
+      "message": "Thanks! I was curious whether 11 is supported now or not.",
+      "parentUuid": "4109e88a_adceaa76",
+      "revId": "58e9602128a91c80a84f79580ab6656ede744223",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
