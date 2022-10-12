@@ -16,6 +16,23 @@
       "message": "This is just a small part of the work needed. I will update the bug with information about what else needs to be done.",
       "revId": "59e668a960e6d5d7e92274be6f1d20c75849b411",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6cfb26fc_b21389bb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2022-10-12T13:57:18Z",
+      "side": 1,
+      "message": "Thanks for doing this Steven. After updating the bug with the fix I went off to find out who I should assign it to and never came back to update it.",
+      "revId": "59e668a960e6d5d7e92274be6f1d20c75849b411",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
