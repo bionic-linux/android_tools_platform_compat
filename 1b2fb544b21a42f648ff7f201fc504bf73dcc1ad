@@ -52,6 +52,24 @@
       "parentUuid": "8f1fdb99_d9a5b6f9",
       "revId": "1b2fb544b21a42f648ff7f201fc504bf73dcc1ad",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c3e3477c_2615affb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1060959
+      },
+      "writtenOn": "2023-05-02T15:01:54Z",
+      "side": 1,
+      "message": "You don\u0027t submit changes into release branches directly -- coastguard does that. Hassan you need to make the change in the dev branch. Pedro has a pending one here: aosp/2571850",
+      "parentUuid": "c6c259ba_80f519ff",
+      "revId": "1b2fb544b21a42f648ff7f201fc504bf73dcc1ad",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
