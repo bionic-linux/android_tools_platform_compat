@@ -16,6 +16,24 @@
       "message": "you\u0027ll need a merged-in tag here to prevent the merge into master. maybe I2671f7b8a794a5e5ddb462db9b847913d40751c4 ?",
       "revId": "22c861e3aa24048e7bf0287db17320a9d957f38c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff4f0030_1705d9fd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1944185
+      },
+      "writtenOn": "2023-05-03T09:30:56Z",
+      "side": 1,
+      "message": "I want to update the file in both branches, I will create e separate change in aosp and add the tag.",
+      "parentUuid": "ea7ad3e1_47b60c76",
+      "revId": "22c861e3aa24048e7bf0287db17320a9d957f38c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
