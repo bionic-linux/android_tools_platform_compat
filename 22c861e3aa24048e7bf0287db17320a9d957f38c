@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea7ad3e1_47b60c76",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1060959
+      },
+      "writtenOn": "2023-05-03T08:13:28Z",
+      "side": 1,
+      "message": "you\u0027ll need a merged-in tag here to prevent the merge into master. maybe I2671f7b8a794a5e5ddb462db9b847913d40751c4 ?",
+      "revId": "22c861e3aa24048e7bf0287db17320a9d957f38c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
