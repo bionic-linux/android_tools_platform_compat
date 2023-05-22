@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4632633_e9c38af4",
+        "filename": "OWNERS",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1014443
+      },
+      "writtenOn": "2023-05-22T14:41:49Z",
+      "side": 1,
+      "message": "Please remove me from the owners file while you\u0027re at it.",
+      "revId": "9acdebe5482fa0d623c80616ab0022387b33ef60",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
