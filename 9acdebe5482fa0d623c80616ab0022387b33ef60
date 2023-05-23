@@ -50,6 +50,24 @@
       "message": "Please remove me from the owners file while you\u0027re at it.",
       "revId": "9acdebe5482fa0d623c80616ab0022387b33ef60",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a275df4_e196edf3",
+        "filename": "OWNERS",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1944185
+      },
+      "writtenOn": "2023-05-23T10:35:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a4632633_e9c38af4",
+      "revId": "9acdebe5482fa0d623c80616ab0022387b33ef60",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
