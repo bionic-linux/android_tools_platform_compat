@@ -28,10 +28,10 @@ java_test_host {
 
     static_libs: [
         "compile-testing-prebuilt",
-        "junit-host",
-        "mockito-host",
+        "junit",
+        "mockito",
         "objenesis",
-        "truth-host-prebuilt",
+        "truth",
         "unsupportedappusage-annotation-processor-lib",
     ],
 }

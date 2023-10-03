@@ -35,8 +35,8 @@ java_test_host {
         "annotationvisitor-testutil",
         "apache-bcel",
         "guava",
-        "junit-host",
-        "truth-host-prebuilt",
+        "junit",
+        "truth",
     ],
     test_suites: ["general-tests"],
 }

@@ -23,11 +23,11 @@ java_test_host {
     static_libs: [
         "annotationvisitor-testutil",
         "class2nonsdklistlib",
+        "junit",
         "libjavac",
-        "truth-host-prebuilt",
-        "mockito-host",
-        "junit-host",
+        "mockito",
         "objenesis",
+        "truth",
     ],
     test_suites: ["general-tests"],
 }

@@ -29,9 +29,9 @@ java_test_host {
     static_libs: [
         "compat-changeid-annotation-processor-lib",
         "compile-testing-prebuilt",
-        "junit-host",
-        "mockito-host",
-        "objenesis-host",
-        "truth-prebuilt",
+        "junit",
+        "mockito",
+        "objenesis",
+        "truth",
     ],
 }
