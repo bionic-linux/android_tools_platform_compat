@@ -31,6 +31,10 @@ java_library {
     ],
     sdk_version: "core_current",
     exported_plugins: ["compat-changeid-annotation-processor"],
+    apex_available: [
+        "com.android.tethering",
+        "//apex_available:platform",
+    ],
 }
 
 // Don't forget to depend on exported_plugins, if using sources directly
