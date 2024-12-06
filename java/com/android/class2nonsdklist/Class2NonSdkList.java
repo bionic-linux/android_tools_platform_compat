@@ -138,10 +138,10 @@ public class Class2NonSdkList {
 
 
         String[] jarFiles = cmd.getArgs();
-        if (jarFiles.length == 0) {
+        /*if (jarFiles.length == 0) {
             System.err.println("Error: no jar files specified.");
             help(options);
-        }
+        }*/
 
         Status status = new Status(cmd.hasOption('d'));
 
